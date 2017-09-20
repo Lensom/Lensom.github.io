@@ -1,0 +1,52 @@
+* {
+	font-family: Montserrat, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+hr {
+	margin: 0 auto;
+	width: 110px;
+	height: 1px;
+	background-color: #35c2f8;
+}
+
+header {
+	background: url(../img/back.jpg) no-repeat center center / cover;
+	background-color: rgba(0,0,0,.3); /*Темный фон */
+  background-blend-mode: darken;
+  padding-bottom: 110px;
+  height: 100vh;
+}
+
+header li {
+	display: inline;
+}
+
+nav {
+	float: right;	
+	margin-top: 55px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fff;
+	padding: 17px 20px;
+	/* font-weight: 700; */
+	font-size: 16px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #222;
+}
+
+.logo {
+	width: 200px;
+	margin-top: 20px;
+}
