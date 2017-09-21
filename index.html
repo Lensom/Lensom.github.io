@@ -1,6 +1,7 @@
 	<!DOCTYPE html>
 	<html lang="ru">
 	<head>
+
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106766401-1"></script>
 		<script>
@@ -10,12 +11,26 @@
 		  gtag('config', 'UA-106766401-1');
 		</script>
 		
+		<!-- META -->
+
 		<meta charset="UTF-8">
-		<title>Hello!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- TITLE -->
+
+		<title>Сайт-портфолио</title>
+
+		<!-- LINKS -->
+
+		<link rel="shortcut icon" href="img/shortcut.png" type="image/png">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+		<!-- SCRIPTS -->
+
 	  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 	</head>
@@ -24,29 +39,216 @@
 	<header>
 		<div class="container">
 			<div class="row">	
-			 <a href="#"><img src="img/logo.png" class="logo"></a>
+			 <a href="index.html"><img src="img/logo.png" class="logo"></a>
 				<nav>
-					<ul>
+					<div class="menuToggle">Menu</div>
+					<ul class="menu">
 						<li><a href="#">Обо мне</a></li>
-						<li><a href="#">Навыки</a></li>
+						<li><a href="#">Резюме</a></li>
 						<li><a href="#">Мои работы</a></li>
 						<li><a href="tel:+30676662317">+3 (067) 666-23-17</a></li>
 					</ul>
 				</nav>
 			</div>
-				<div class="title text-center">
-					<h1>Build the website of <br>your dreams</h1>
+				<div class="title">
+					<h1>Алексей Рыбалко</h1>
 					<hr>
-					<h2>
-						We are a digital agency that believes in building<br>	
-						things that are meaningful!
-					</h2>
-				</div>
+					<h2>html-верстальщик</h2>
+					<div class="links">
+					  <a href="https://www.behance.net/maguraworkb307" target="_blanck"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a>
+				  	<a href="tel:+30676662317"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+					  <a href="skype:qwertik523"><i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
+				  	<a href="mailto:magurawork@gmail.com" target="_blanck"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+ 					</div>	
+ 			</div>
 		</div>
 	</header>
 
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="title_section">
+					<h1>Обо мне</h1>
+				</div>
+				<div class="about_section">
+				<div class="col-md-2">
+					<img src="img/20160917_160219.jpg" class="photo">
+				</div>
 
+				<div class="col-md-10">
+					<h2>О себе</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>Контактная информация</h2>
+					<p>Рыбалко А.Ю.</p>
+					<p></p>
 
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+					<p><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>fafafsfsf</p>
+					<p><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>fsfsfsf</p>
+					<p><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>sfsfsfsf</p>
+					<p><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>fsfsfsf</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="title_section">
+					<h2>Резюме</h2>
+				</div>
+					<div class="skills_section">
+						<div class="skill">
+						 <div class="col-md-4">
+						 		<h3>Знания и опыт</h3>
+							<ul>
+								<li>Язык разметки <b>HTML5</b></li>
+								<li>Таблицы стилей <b>CSS3</b></li>
+								<li><b>Bootstrap</b></li>
+								<li>Базовые знания <b>javascript</b></li>
+								<li><b>jQuery</b> на уровне подключения готовых библиотек</li>
+								<li>опыт работы с <b>CMS</b>: <b>Wordpress</b>, <b>Opencart</b></li>
+								<li>опыт использования <b><a href="#">Github</a></b></li>
+							</ul>
+								</div>
+
+							<div class="col-md-4">
+								<h3>Программы</h3>
+							<ul>
+								<li>Adobe Photoshop</li>
+								<li>Avacode</li>
+								<li>Sublime Text (+emmet)</li>
+							</ul>
+							</div>
+
+							<div class="col-md-4">
+								<h3>Планы</h3>
+								<p>Изучение javascript, фреймворк vue.js</p>
+							</div>
+
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="works">
+		<div class="container">
+			<div class="row">
+				<div class="title_section">
+					<h1>Мои работы</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<div class="container">
+	<div class="row">
+  		
+      
+      	<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+               <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+        
+		<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+               <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+        
+		<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+               <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+      
+      	<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+                <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+        
+		<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+                <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+        
+		<div class="col-md-4">
+      		<div class="thumbnail">
+              <img src="http://24.media.tumblr.com/7a8fffc90c6e317e2f3b981e2877b970/tumblr_mm68tkMf9w1soxo5lo1_r1_500.jpg" alt="">
+              <div class="caption">
+                <h3>Here goes title</h3>
+                <p>Here goes description paragraph</p>
+                <p><a class="btn btn-block" href="http://www.bootstraptor.com/">Learn more</a></p>
+              </div>
+          </div>
+      	</div>
+      
+  	</div>
+</div>
+
+  <footer>
+  	<div class="container">
+      <div class="row">
+         <div class="social">
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2017</li>
+               <li>Дизайн и верстка <a title="Styleshout" href="#">Рыбалко А.Ю.</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+				</div>
+      </div>
+
+   </footer> <!-- Footer End-->
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/script.js"></script>
 	</body>
 	</html>

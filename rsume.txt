@@ -1,0 +1,14 @@
+							язык разметки <b>HTML5</b>
+							таблицы стилей <b>CSS3</b>
+							Bootstrap
+							Ѕазовые знани€ javascript
+							jQuery на уровне подключени€ готовых библиотек	
+							опыт работы с CMS: Wordpress, Opencart
+
+
+							github , photoshop, avacode, zeplin , gulp, node
+
+						
+							планы: »зучение javascript, framework vue.js
+
+							использую: adobe photoshop/avacode, sublime text(+emmet)
