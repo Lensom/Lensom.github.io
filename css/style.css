@@ -45,6 +45,10 @@ nav {
 	border-bottom: 6px solid #ff5500;
 }
 
+.menu a:visited {
+	text-decoration: none;
+}
+
 .logo {
 	width: 200px;
 	margin-top: 40px;
@@ -79,16 +83,15 @@ nav {
 	.logo {
 		width: 100px;
 		margin-left: 30px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
 	.menuToggle {
 		display: inline;
-		margin-right: 100px;
+		margin-right: 50px;
 	}
 
-}
-
+} 
 
 /***************** HEADER ************************/
 
@@ -120,6 +123,7 @@ nav {
 	color: #fff;
 	margin-right: 20px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .links i:hover {
