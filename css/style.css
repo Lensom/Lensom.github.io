@@ -88,9 +88,15 @@ nav {
 
 	.menuToggle {
 		display: inline;
-		margin-right: 50px;
+		margin-right: 80px;
 	}
 
+}
+
+@media screen and (max-width: 320px) {
+		.title {
+		margin-top: -100px;
+	}
 } 
 
 /***************** HEADER ************************/
@@ -116,7 +122,8 @@ nav {
 
 .links a {
 	color: #fff;
-	margin-right: 20px;
+	margin-right: 0px;
+	margin-left: 20px;
 }
 
 .links i {
