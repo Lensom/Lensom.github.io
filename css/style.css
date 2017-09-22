@@ -232,3 +232,40 @@ nav {
  	margin-bottom: 50px; 
 }
 
+/********** footer **********/
+
+footer {
+	background: #2B2B2B;
+	color: #fff;
+}
+
+.social-links a{
+	color: #fff;
+}
+
+.social-links li {
+	display: inline;
+	margin: 20px;
+}
+
+.social-links i {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.social-links i:hover {
+	#ff5500
+}
+
+.social-links {
+	width: 100%;
+	text-align: center;
+}
+
+.copyright {
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.copyright li {
+	padding-bottom: 10px;
+}
