@@ -228,10 +228,41 @@ nav {
 	text-decoration: none;
 }
 
+/*********** WORKS ***********/
+
 .thumbnail{
  	margin-bottom: 50px; 
 }
 
+.caption h3 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	color: #000;
+}
+
+
+.caption p {
+	color: #333;
+}
+
+.caption a {
+	font-size: 16px;
+	color: #333;
+	border-bottom: 3px solid #ff5500;
+}
+
+.caption a:hover {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 3px solid #ff5500;
+}
+
+
+.thumbnail img {
+	width: 800px;
+	height: 300px;
+}
 /********** footer **********/
 
 footer {
@@ -266,6 +297,21 @@ footer {
 	padding-bottom: 20px;
 }
 
+.social-links a:hover {
+	color: #fff;
+	border-bottom: 3px solid #ff5500;
+}
+
 .copyright li {
 	padding-bottom: 10px;
+}
+
+.copyright a {
+	color: #fff;
+	border-bottom: 3px solid #ff5500;
+}
+
+.copyright a:hover {
+	text-decoration: none;
+	color: #fff;
 }
