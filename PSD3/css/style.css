@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Helvetica Neue"; /* Имя шрифта */
+    src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+   }
+
+* {
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+div {
+	box-sizing: border-box;  /*чтоб пединги не делали больше блок */
+}
+
+nav {
+	float: right;	
+}
+
+.top-line {
+	background-color: #2ecc71;
+	height: 10px;
+}
+
+header {
+	background: url(../img/backg.jpg) no-repeat center top / cover;
+	height: 600px;
+
+}
+
+.logo {
+	margin-top: 170px;
+	/* margin-bottom: 35px; */
+}
+
+header h1 {
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+
+header img {
+		margin-right: 10px;
+}
+
+#main h2 {
+	color: #222222;
+font-family: Raleway;
+font-size: 22px;
+font-weight: 600;
+line-height: 18px;
+}
+
+#main img {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+#main p {
+	color: #848484;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+.get {
+	background-color: #e3e3e3;
+}
+
+textarea {
+	border-radius: 15px;
+	border: 1px solid #c8c8c8;
+	background-color: #ffffff;
+	width: 305px;
+}
+
+.notify {
+	border: none;
+	width: 100px;
+	height: 46px;
+	background-color: #2ecc71;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	}
+
+.nthh {
+	border: none;
+	width: 305px;
+	height: 46px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 10px;
+}
+
+.get h2 {
+	margin-top: 60px;
+	color: #222222;
+	font-family: Raleway;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 18px;
+}
+
+.get p {
+	color: #848484;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.get iframe {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: right;
+	border-radius: 10px;
+}
+
+.people h4 {
+	color: #848484;
+font-family: "Helvetica Neue";
+font-size: 18px;
+font-style: italic;
+line-height: 30px;
+margin-top: 55px;
+}
+
+.people h3 {
+	color: #2e2e2e;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+
+.people h2 {
+	color: #000000;
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-top: 55px;
+}
+
+.people p {
+	color: #848484;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+
+.people {
+	margin-bottom: 60px;
+}
+
+.link img {
+	margin-right: 5px;
+}
+
+footer {
+	background-color: #e3e3e3;
+}
+
+footer li {
+	color: #848484;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+
+footer a {
+	color: #848484;
+}
+
+footer a:hover {
+	color: #848484;
+	text-decoration: none;
+}
