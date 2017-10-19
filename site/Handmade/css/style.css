@@ -1,0 +1,155 @@
+* {
+	font-family: Montserrat, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+div {
+	box-sizing: border-box;  /*чтоб пединги не делали больше блок */
+}
+header {
+	background: url(../img/back.png) no-repeat center center / cover;
+	background-color: rgba(0,0,0,.7); /*Темный фон */
+  background-blend-mode: darken;
+  padding-bottom: 260px;
+}
+
+nav {
+	float: right;	
+}
+
+.menu {
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block; /* убираем точки в списке*/
+	padding-top: 50px;	
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none; /* подчеркивание */
+	padding-right: 33px;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+.logo {
+	padding-top: 40px;
+}
+
+header h1 {
+	margin-top: 200px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+header h2 {
+	margin-top: 60px;
+	color: #fff;
+	margin-bottom: 90px;
+
+}
+
+.sign {
+	color: #82c66c;
+	border: none;
+	background: transparent;
+	border: 2px solid #b0dba1;
+	border-radius: 40px;
+	padding: 20px 70px;
+	/* margin-top: 6px; */
+	text-transform: uppercase;
+}
+
+.sign:hover {
+	background: #82c66c;
+	color: #fff;
+}
+
+.two {
+	height: 200px;
+	width: auto;
+}
+
+.about h1 {
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #333;
+}
+
+.about h2 {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+
+.about p {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+
+.about {
+	margin-bottom: 30px;
+	background: #f1f1f1;
+}
+.works h2 {
+		text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #333;
+}
+
+.works img {
+	height: 350px;
+	margin-bottom: 30px;
+}
+
+.buy {
+		color: #fff;
+	border: none;
+	background: #82c66c;
+	border: 2px solid #fff;
+	border-radius: 40px;
+	padding: 10px 40px;
+	margin-left: 30px;
+	/* margin-top: 6px; */
+	text-transform: uppercase;
+}
+
+footer {
+	background: #f1f1f1;
+	margin-top: 40px;
+}
+
+footer h2 {
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #333;
+}
+
+
+footer a {
+	margin-right: 10px;
+	margin-left: ;
+}
+
+footer p {
+	margin-top: 40px;
+
+}
+
+.cont img{
+margin-right: 10px;
+}
+
+.partners h5 {
+	margin-top: 100px;	
+
+}

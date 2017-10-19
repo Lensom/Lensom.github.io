@@ -1,6 +1,6 @@
 body {
 	font-family: Lobster, sans-serif;
-}
+м}
 
 html {
 	background-color: #1a1a1a;
@@ -370,72 +370,6 @@ margin: -16px 0 0 -16px;}
 	display: block;
 z-index: 6000; */
 }
-/*************************** MEDIA QUERY ****************************/
-
-@media only screen and (max-width: 769px) {
-	.phone {
-		visibility: hidden;
-	}
-	.logo {
-		margin-left: 20%;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-		.logo {
-		margin-left: 4%;
-	}
-}
-
-@media only screen and (max-width: 375px) {
-	.logo {
-		margin-left: 4%;
-	}
-	.welcome  {
-		position: absolute;
-		top: -150px;
-		padding-left: 6%;
-	}
-
-	.welcome h1 {
-		font-size: 30px;
-	}
-
-	.button {
-		position: absolute;
-		top: 300px;
-		left: -46px;
-	}
-
-	.welcome hr {
-		width: 200px;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	.button {
-		position: absolute;
-		top: 260px;
-		left: -20px;
-
-	}
-}
-
-@media only screen and (max-width: 414px) {
-	.welcome  {
-		position: absolute;
-		top: -150px;
-		/* padding-left: 6%; */
-	}
-
-	.button {
-		position: absolute;
-		top: 300px;
-		left: -30px;
-	}
-}
-
-
 
 .gallery-title
 {
@@ -479,7 +413,22 @@ z-index: 6000; */
 
 .portfolio_works {
 	min-height: 1000px;
+	background: #e8e6e6;
 }
+
+.img-responsive {
+	width: 365px;
+	height: auto;
+}
+
+.img-responsive:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg); 
+}
+
 
 .port-image {
   width: 100%;
@@ -499,7 +448,7 @@ margin-bottom: 30px;
 }
 
 .study-section {
-  /* padding: 4em 0; */
+  background: #e8e6e6;
 }
 .study-grid h3 {
   font-family: 'Nunito-Bold';
@@ -565,7 +514,7 @@ margin-bottom: 30px;
 
 .contactme h1 {
 	font-size: 50px;
-	color: #fff;
+	color: #cfcfcf;
 	text-align: center;
 	font-weight: 500;
 	margin-bottom: 10px;
@@ -574,7 +523,7 @@ margin-bottom: 30px;
 
 #my-footer {
 	background: #000;
-	color: #fff;
+	color: #cfcfcf;
 	font-size: 18px;
 	padding: 10px 0;
 }
@@ -592,7 +541,7 @@ margin-bottom: 30px;
 } */
 
 .follow a {
-	color: #fff;
+	color: #cfcfcf;
 	font-size: 24px;
 	line-height: 38px;
 	transition: background-color .25s ease;
@@ -628,7 +577,7 @@ margin-bottom: 30px;
 }
 
 #my-footer nav a {
-	color: #fff;
+	color: #cfcfcf;
 	margin: 0 5px;
 	font-size: 22px;
 }
@@ -639,4 +588,69 @@ margin-bottom: 30px;
 
 #my-footer .code {
 	text-align: right;
+}
+
+/*************************** MEDIA QUERY ****************************/
+
+@media only screen and (max-width: 769px) {
+	.phone {
+		visibility: hidden;
+	}
+	.logo {
+		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+		.logo {
+		margin-left: 4%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.logo {
+		margin-left: 4%;
+	}
+	.welcome  {
+		position: absolute;
+		top: -150px;
+		padding-left: 6%;
+	}
+
+	.welcome h1 {
+		font-size: 30px;
+	}
+
+	.button {
+		position: absolute;
+		top: 300px;
+		left: -46px;
+	}
+
+	.welcome hr {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.button {
+		position: absolute;
+		top: 260px;
+		left: -20px;
+
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.welcome  {
+		position: absolute;
+		top: -150px;
+		/* padding-left: 6%; */
+	}
+
+	.button {
+		position: absolute;
+		top: 300px;
+		left: -30px;
+	}
 }
