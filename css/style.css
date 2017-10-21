@@ -1,6 +1,6 @@
 body {
 	font-family: Lobster, sans-serif;
-м}
+}
 
 html {
 	background-color: #1a1a1a;
@@ -144,35 +144,37 @@ html.mm-opened {
 }
 
 #page-preloader{
-position: fixed;
-left: 0;
-top: 0;
-right:0;
-bottom:0;
-background: #1a1a1a; 
-z-index: 30;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: #1a1a1a; 
+	z-index: 30;
 }
  
 .contpre{
-width: 250px;
-height: 100px;
-position: absolute;
-left: 50%;top: 48%;
-margin-left:-125px;
-margin-top:-75px;
-color:#ffd700;
-font-size:40px;
-letter-spacing:-2px;
-text-align:center;
-line-height:35px;}
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 50%;top: 48%;
+	margin-left:-125px;
+	margin-top:-75px;
+	color:#ffd700;
+	font-size:40px;
+	letter-spacing:-2px;
+	text-align:center;
+	line-height:35px;
+}
  
 #page-preloader .spinner {
-position: absolute;
-width: 40px;
-height: 40px;
-background: url(/preloader.gif) center center no-repeat;
-background-size:40px;    
-margin: -16px 0 0 -16px;}
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: url(/preloader.gif) center center no-repeat;
+	background-size:40px;    
+	margin: -16px 0 0 -16px;
+}
 
 #particles-js {
 	height: 100vh;
@@ -215,6 +217,7 @@ margin: -16px 0 0 -16px;}
 	text-align: center;
 	padding-top: 24px;
 }
+
 .main-button .button {
 	display: inline-block;
 	border: none;
@@ -450,6 +453,7 @@ margin-bottom: 30px;
 .study-section {
   background: #e8e6e6;
 }
+
 .study-grid h3 {
   font-family: 'Nunito-Bold';
   font-size: 2.5em;
@@ -463,11 +467,13 @@ margin-bottom: 30px;
   text-decoration: underline;
   font-size: 1.1em;
 }
+
 .study-grid p {
   font-size: 1.2em;
   color: #393b3a;
   padding: 1.1em 0 0 0;
-  }
+}
+
 .study-grid label {
   font-size: 0.8em;
   color: #9CA69D;
@@ -479,34 +485,39 @@ margin-bottom: 30px;
 	 box-shadow: none;
 	 background-color: #DCDCDC;
 }
+
 .progress-bar-success {
   background-color: #008080;
    box-shadow: none;
 }
+
 .progress-bar-info {
   background-color: ##006400;
     box-shadow: none;
 }
+
 .progress-bar-warning {
   background-color: #4682B4;
    box-shadow: none;
 }
+
 .progress-bar-danger {
   background-color: #4169E1;
   box-shadow: none;
-  }
+}
+
 .study-grid h4 {
   font-size: 1.3em;
   text-transform: capitalize;
   color: rgb(29, 26, 26);
-  }
+}
+
 .study1 {
   padding: 1em 0 0;
 }
 .study2 {
   padding: 2em 0 0;
 }
-
 
 .contactme {
 	background: url(../img/html-background-image-HD3-1.jpg) center center / cover;
@@ -535,10 +546,6 @@ margin-bottom: 30px;
 	margin: 0 auto;
 
 }
-/* 
-.follow{
-	margin: auto;
-} */
 
 .follow a {
 	color: #cfcfcf;
@@ -569,8 +576,6 @@ margin-bottom: 30px;
 .git {
 	padding-left: 8px;
 }
-
-
 
 #my-footer nav li {
 	display: inline-block;
