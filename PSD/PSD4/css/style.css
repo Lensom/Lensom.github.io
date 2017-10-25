@@ -1,0 +1,335 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Yeseva One', cursive;
+} 
+
+p {
+	font-family: 'Lato', cursive;
+}
+
+header {
+	background: url(../img/background.jpg) center center / cover;
+	/* height: 79vh; */
+}
+
+.navbar {
+	background: transparent;
+	border: none;
+	/* background: url(../img/background-top.jpg); */
+}
+
+
+.navbar-default .navbar-nav>li>a  {
+	font-family: 'Gentium Book Basic' , sans-serif;
+	color: #fff;
+	font-size: 21px;
+	border-top: 3px solid transparent;
+	padding-top: 47px;
+}
+
+.navbar-right li{
+	padding-left: 17px;
+}
+
+.fa {
+	color: #dab33e;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: none;
+	color: #fff;
+	border-top: 3px solid #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	border-top: 3px solid #fff;
+	color: #fff;
+}
+
+.nav .navbar-nav .icons a:hover {
+	border-top: 3px solid #dab33e;
+}
+
+.main h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 90px;
+	padding-top: 170px;
+}
+
+.main img {
+	display: block;
+	margin: 0 auto;
+	padding: 33px;
+}
+
+.buttons {
+	text-align: center;
+	padding-bottom: 140px;
+	margin-top: 10px;
+}
+
+.button_book {
+	border: none;
+	padding: 18px 50px;
+	border: 2px solid #000;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgba(0,0,0, 0.5);
+	margin-right: 30px;
+	font-weight: 700;
+	border-radius: 6px;
+}
+
+.button_book:hover {
+	color: #000;
+	text-decoration: none;
+	background: rgba(255,255,255, 0.5);
+}
+
+.button_menu {
+	border: none;
+	padding: 18px 50px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgba(255,255,255, 0.1);
+	font-weight: 700;
+	border-radius: 6px;
+}
+
+.button_menu:hover {
+	text-decoration: none;
+	color: #000;
+	background: rgba(255,255,255, 0.5);
+}
+
+.text_about {
+	text-align: center;
+	padding-top: 105px;
+}
+
+.text_about h2 {
+	color: #cc9900;
+	font-size: 36px;
+}
+
+.devider_about {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.about {
+	background: url(../img/backabout.jpg) center center / cover;
+}
+
+.about p {
+	width: 410px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.about .cook {
+	padding-left: 76px;
+}
+
+.about .img_dish {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.img_dish img {
+		width: 100%;
+}
+
+.food_ing {
+	background: rgba(0,0,0, .6);
+	margin-top: 100px;
+	padding-top: 60px;
+	margin-bottom: 100px;
+}
+
+.ingredients .devider {
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+.ingredients {
+	background: url(../img/bgfood.jpg) center center / cover;
+	text-align: center;
+	color: #fff;
+}
+
+.ingredients p {
+	display: block;
+	width: 410px;
+	margin: 0 auto;
+	font-size: 16px;
+	padding-bottom: 70px;
+}
+
+.ingredients_food img {
+	padding: 0px 7.5px;
+	padding-bottom: 75px;
+}
+
+.menu {
+	background: url(../img/bgmenu.jpg) center center / cover;
+	padding-top: 105px;
+	/* padding-bottom: 100px; */
+}
+
+.menu_tap h1 {
+	text-align: center;
+	color: #cc9900;
+	font-size: 36px;
+}
+
+.menu_tap h3 {
+	font-size: 24px;
+	color: #cc9900;
+}
+
+.menu_tap img {
+	display: block;
+	margin: 0 auto;
+}
+
+.price .yes{
+	width: 435px;
+	height: 2px;
+	background: #dfd2a4;
+}
+
+.price hr {
+	width: 70px;
+}
+
+.salads {
+	position: relative;
+	z-index: 50;
+	top: -319px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.guest {
+	background: url(../img/bgmeat.jpg) center center / cover;
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.guest h1 {
+	padding-top: 75px;
+}
+.guest p {
+	display: inline-block;
+	margin: 0 auto;
+	width: 640px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.guest_answer {
+	background: rgba(0,0,0,0.85);
+	width: 720px;
+}
+
+.guest .devider {
+	padding-bottom: 30px;
+}
+
+.name_guest {
+	padding-bottom: 100px;
+}
+
+
+.contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: url(../img/contactbg.jpg) center center / cover;
+}
+
+.contact h1 {
+ 	color: #cc9900;
+ 	text-align: center;
+}
+
+.contact p {
+	display: block;
+	margin: 0 auto;
+	width: 420px;
+	text-align: center;
+}
+
+.contact .two {
+	padding-bottom: 50px;
+}
+
+.form-group label {
+	color: #cc9900;
+}
+
+.photo_contact {
+	padding
+}
+
+input[placeholder] {
+	font-style: italic;
+}
+
+input:focus {
+	border: 1px solid #cc9900;
+}
+
+.contact .devider {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0 20px 0;
+}
+
+input#submit {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	margin-top: 35px;
+	border: none;
+	border: 1px solid #c9a131;
+	background: #c9a131;
+	color: #fff;
+	font-size: 16px;
+	padding: 7.5px 63px;
+}
+
+
+footer {
+	background: url(../img/bgfooter.jpg);
+	color: #fff;
+	text-align: center;
+}
+
+footer h1 {
+	font-size: 24px;
+	padding-top: 40px;
+}
+
+footer .devider {
+	padding: 10px 0 15px 0;
+}
+
+footer p {
+	font-size: 16px;
+}
+
+.social, 
+.cards {
+	padding-top: 30px;
+}
