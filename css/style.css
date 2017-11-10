@@ -321,7 +321,7 @@ html.mm-opened {
 }
 
 .about {
-	background: url(../img/html-background-image-HD3-1.jpg) center center / cover;
+	background-color: #191919;
 	padding-bottom: 100px;
 }
 
@@ -520,7 +520,7 @@ margin-bottom: 30px;
 }
 
 .contactme {
-	background: url(../img/html-background-image-HD3-1.jpg) center center / cover;
+	background-color: #191919;
 }
 
 .contactme h1 {
