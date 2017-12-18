@@ -191,8 +191,13 @@ html.mm-opened {
 .welcome {
 	/* padding-right: 40px; */ 
 }
+
 .welcome h1 {
 	padding-bottom: 10px;
+}
+
+.welcome h2 {
+	font-size: 48px;
 }
 .welcome hr {
 	height: 1px;
@@ -334,7 +339,7 @@ html.mm-opened {
 		margin-top: 30px;
 	}
 
-	.about h2 {
+	.about h3 {
 		font-size: 40px;
 		padding: 20px 0;
 	}
@@ -441,7 +446,7 @@ html.mm-opened {
 	margin-bottom: 30px;
 }
 
-.title_study h1 {
+.title_study h2 {
 	font-size: 50px;
 	color: #333;
 	text-align: center;
@@ -460,7 +465,7 @@ html.mm-opened {
 	text-transform: capitalize;
 	color: #393b3a;
 	padding-top: 30px;
-	
+
 }
 .study-grid span {
 	color: black;
@@ -628,6 +633,11 @@ html.mm-opened {
 	#my-footer {
 		line-height: 26px;
 	}
+	.about h3 {
+		font-size: 40px;
+		padding: 20px 50px;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -642,10 +652,6 @@ html.mm-opened {
 		text-align: center;
 	}
 
-	.about h2 {
-		font-size: 40px;
-		padding: 20px 50px;
-	}
 
 }
 
@@ -671,6 +677,13 @@ html.mm-opened {
 
 	.welcome hr {
 		width: 200px;
+	}
+
+	.welcome h2 {
+    font-size: 30px;
+}
+	.welcome {
+		padding-left: 40px;
 	}
 }
 
