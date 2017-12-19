@@ -427,6 +427,7 @@ html.mm-opened {
 .img-responsive {
 	width: 365px;
 	height: auto;
+	/*height: 290px;*/
 }
 
 .img-responsive:hover {
