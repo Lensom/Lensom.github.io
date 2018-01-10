@@ -1,0 +1,290 @@
+	<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Restaraunt</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</head>
+
+	<body>
+
+		<header>
+		<nav class="navbar navbar-default" role="navigation">
+ 		 <div class="container">
+    <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+    </div>
+ 
+    <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+    <div class="collapse navbar-collapse" id="navhed">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Reservations</a></li>
+        <li>
+        	<ul class="nav navbar-nav icons">
+        		<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        	</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>the right ingredients <br>
+					for the right food</h1>
+					<img src="img/main-devider.png">
+					<div class="buttons">
+						<a href="#" class="button_book">Book a table</a>
+						<a href="#" class="button_menu">See the menu</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+  </header>
+
+  <section class="about" id="about">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6 text_about">
+  				<h2>Just the right food</h2>
+  				<img src="img/deviderabout.png" class="devider_about">
+  				<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+  				<img src="img/cook.png" class="cook">
+  			</div>
+  			<div class="col-sm-6 img_dish">
+  				<img src="img/dish.jpg">
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="ingredients" id="ingredients">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6 col-sm-offset-6 food_ing">
+  				<h1>Fine imgredients</h1>
+  				<img class="devider" src="img/devider.png">
+  				<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+</p>
+					<div class="ingredients_food">
+						<img src="img/food1.png" alt="food">
+						<img src="img/food2.png" alt="food">
+						<img src="img/food3.png" alt="food">
+					</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+	<section class="menu" id="menu">
+		<div class="container">
+			<div class="row">
+				<div class="menu_taps">
+					<div class="menu_tap">
+						<div class="col-sm-6">
+							<h1>Appetisers</h1>
+							<img src="img/deviderabout.png" class="devider">
+							<div class="price">
+								<div class="col-sm-6">
+									<h3>Tzatsiki</h3><hr class="yes">
+									<h3>Auburgine Salad</h3><hr class="yes">
+									<h3>Aubergine Salad</h3><hr class="yes">
+								</div>	
+								<!-- <hr> -->
+								<div class="col-sm-4 col-sm-offset-2">
+									<h3>$3.99</h3><hr>
+									<h3>$5.50</h3><hr>
+									<h3>$5.25</h3><hr>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="menu_tap">
+						<div class="col-sm-6">
+							<h1>Starters</h1>
+							<img src="img/deviderabout.png" class="devider">
+							<div class="price">
+								<div class="col-sm-6">
+									<h3>Halouml</h3><hr class="yes">
+									<h3>Spinach Pie</h3><hr class="yes">
+								</div>	
+								<!-- <hr> -->
+								<div class="col-sm-4 col-sm-offset-2">
+									<h3>$3.99</h3><hr>
+									<h3>$5.50</h3><hr>
+									<!-- <h3>$5.50</h3><hr> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu_tap">
+						<div class="col-sm-6">
+							<h1>Main Dishes</h1>
+							<img src="img/deviderabout.png" class="devider">
+							<div class="price">
+								<div class="col-sm-6">
+									<h3>Cornish Mackerel</h3><hr class="yes">
+									<h3>Roast Lamb</h3><hr class="yes">
+									<h3>Fried Chicken</h3><hr class="yes">
+									<h3>Pastitslo</h3><hr class="yes">
+								</div>	
+								<div class="col-sm-4 col-sm-offset-2">
+									<h3>$3.99</h3><hr>
+									<h3>$5.50</h3><hr>
+									<h3>$5.25</h3><hr>
+									<h3>$5.99</h3><hr>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu_tap salads">
+						<div class="col-sm-6">
+							<h1>Salads</h1>
+							<img src="img/deviderabout.png" class="devider">
+							<div class="price">
+								<div class="col-sm-6">
+									<h3>Olive Special</h3><hr class="yes">
+									<h3>Greek Salad</h3><hr class="yes">
+									<h3>Gusto Salad</h3><hr class="yes">
+								</div>	
+								<div class="col-sm-4 col-sm-offset-2">
+									<h3>$3.99</h3><hr>
+									<h3>$5.50</h3><hr>
+									<h3>$5.25</h3><hr>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+		</div>
+	</section>	
+
+	<section class="guest">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-6 hidden-xs guest_answer">	
+					<h1>Guest Reviews</h1>
+					<img src="img/devider.png" alt="devider" class="devider">
+					<p><span>“</span>If you’ve been to one of our restaurants, you’ve seen – <br>and tasted – what keeps our customers coming back for <br>more. Perfect materials and freshly baked food,<br> delicious Lambda cakes,  muffins, and gourmet coffees <br>make us hard to resist! Stop in today and check us out!
+					- food inc, New York
+					</p>
+					<br>
+					<br>
+					<p class="name_guest">
+						-food inc, New York
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="photo_contact">
+					<div class="col-sm-3">
+						<img src="img/second_img.jpg">
+					</div>
+
+					<div class="col-sm-3">
+						<img src="img/first_img.jpg">
+					</div>
+				</div>
+
+					<div class="col-sm-6">
+						<h1>Just the right food</h1>
+						<img src="img/deviderabout.png" class="devider">
+						<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p><br>
+						<p class="two">Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+					
+						<div class="form-group">
+					    <!-- <label for="email">Email address:</label> -->
+					    <div class="col-md-6">
+					    	<label for="name">Name</label>
+					    	<input type="name" class="form-control" id="name" placeholder="your name *">
+					    </div>
+					    <div class="col-md-6">
+					    	<label for="second_name">Name</label>
+					    	<input type="second_name" class="form-control" id="second_name" placeholder="your email *">
+					    </div>
+					 
+					    <div class="col-md-6">
+					    	<label for="date">Date</label>
+					    	<input type="date" class="form-control" id="date" placeholder="date *">
+					    </div>
+					    <div class="col-md-6">
+					    	<label for="party">Party number</label>
+					    	<input type="party" class="form-control" id="party" placeholder="party number">
+					    </div>
+					    <div class="col-sm-12">
+					    	<input type="submit" value="Book now!" id="submit">
+					    </div>
+					     
+					  </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>About us</h1>
+					<img src="img/devider.png" class="devider">
+					<p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.
+						Lamda the best restaurant in town</p>
+				</div>
+
+				<div class="col-sm-4">
+					<h1>Opening Hours</h1>
+					<img src="img/devider.png" class="devider">
+					<p><b>Mon-Thu:</b> 7:00am-8:00pm<br>
+						<b>Fri-Sun:</b> 7:00am-10:00pm</p>
+						<img src="img/cards.png" class="cards">
+				</div>
+
+				<div class="col-sm-4">
+					<h1>Our Location</h1>
+					<img src="img/devider.png" class="devider">
+					<p><b>19th Paradise Street Sitia</b><br>
+						<b>128 Meserole Avenue</b></p>
+						<img src="img/socicon.png" class="social">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</body>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</html>

@@ -1,290 +1,434 @@
-	<!DOCTYPE html>
-	<html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Restaraunt</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-	</head>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
 
-	<body>
+<head>
 
-		<header>
-		<nav class="navbar navbar-default" role="navigation">
- 		 <div class="container">
-    <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-    </div>
- 
-    <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
-    <div class="collapse navbar-collapse" id="navhed">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#ingredients">Ingredients</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Reservations</a></li>
-        <li>
-        	<ul class="nav navbar-nav icons">
-        		<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-        		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        	</ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	<meta charset="utf-8">
 
-	<div class="main">
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+				</div>
+
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<button class="btn btn-search" type="button"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+					<button type="submit" class="btn btn-default">Login</button>
+				</form>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<div class="main_header">
+					<div class="col-sm-12">
+						<div class="title">
+							<h1>Taste the Creativity</h1>
+						</div>
+						<div class="subtitle">
+							<h2>We make awesome graphic and web design</h2>
+						</div>
+						<button type="submit" class="btn btn-start">Get Started</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="stuff">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h1>the right ingredients <br>
-					for the right food</h1>
-					<img src="img/main-devider.png">
-					<div class="buttons">
-						<a href="#" class="button_book">Book a table</a>
-						<a href="#" class="button_menu">See the menu</a>
-					</div>	
+					<div class="sub">
+						<img src="img/main_int.png" alt="intro">
+						<h2>We are Good at</h2>
+						<h3>Some of thease stuff under</h3>
+						<hr>
+					</div>
+				</div>
+				<div class="tills">
+					<div class="col-sm-4 till">
+						<img src="img/pen.png" alt="pen">
+						<h4>Graphic Design</h4>
+						<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+						lacinia eget consectetur sed, convallis at tellus.</p>
+					</div>
+					<div class="col-sm-4 till">
+						<img src="img/monitor.png" alt="monitor">
+						<h4>Web Design</h4>
+						<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+						lacinia eget consectetur sed, convallis at tellus.</p>
+					</div>
+					<div class="col-sm-4 till">
+						<img src="img/rz.png" alt="rz">
+						<h4>App design</h4>
+						<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+						lacinia eget consectetur sed, convallis at tellus.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-  </header>
-
-  <section class="about" id="about">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-sm-6 text_about">
-  				<h2>Just the right food</h2>
-  				<img src="img/deviderabout.png" class="devider_about">
-  				<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
-  				<img src="img/cook.png" class="cook">
-  			</div>
-  			<div class="col-sm-6 img_dish">
-  				<img src="img/dish.jpg">
-  			</div>
-  		</div>
-  	</div>
-  </section>
-
-  <section class="ingredients" id="ingredients">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-sm-6 col-sm-offset-6 food_ing">
-  				<h1>Fine imgredients</h1>
-  				<img class="devider" src="img/devider.png">
-  				<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
-</p>
-					<div class="ingredients_food">
-						<img src="img/food1.png" alt="food">
-						<img src="img/food2.png" alt="food">
-						<img src="img/food3.png" alt="food">
-					</div>
-  			</div>
-  		</div>
-  	</div>
-  </section>
-
-	<section class="menu" id="menu">
+	<div class="make">
 		<div class="container">
 			<div class="row">
-				<div class="menu_taps">
-					<div class="menu_tap">
-						<div class="col-sm-6">
-							<h1>Appetisers</h1>
-							<img src="img/deviderabout.png" class="devider">
-							<div class="price">
-								<div class="col-sm-6">
-									<h3>Tzatsiki</h3><hr class="yes">
-									<h3>Auburgine Salad</h3><hr class="yes">
-									<h3>Aubergine Salad</h3><hr class="yes">
-								</div>	
-								<!-- <hr> -->
-								<div class="col-sm-4 col-sm-offset-2">
-									<h3>$3.99</h3><hr>
-									<h3>$5.50</h3><hr>
-									<h3>$5.25</h3><hr>
-								</div>
-							</div>
-						</div>
+				<div class="col-sm-12">
+					<div class="sub">
+						<img src="img/main_int.png" alt="intro">
+						<h2>We Make This</h2>
+						<h3>Prepare to be amazed</h3>
+						<hr>
 					</div>
-					<div class="menu_tap">
-						<div class="col-sm-6">
-							<h1>Starters</h1>
-							<img src="img/deviderabout.png" class="devider">
-							<div class="price">
-								<div class="col-sm-6">
-									<h3>Halouml</h3><hr class="yes">
-									<h3>Spinach Pie</h3><hr class="yes">
-								</div>	
-								<!-- <hr> -->
-								<div class="col-sm-4 col-sm-offset-2">
-									<h3>$3.99</h3><hr>
-									<h3>$5.50</h3><hr>
-									<!-- <h3>$5.50</h3><hr> -->
-								</div>
-							</div>
-						</div>
+					<div class="filter">
+						<button class="filter-button" data-filter="all">All</button>
+						<button class="filter-button" data-filter="hdpe">Design</button>
+						<button class="filter-button" data-filter="sprinkle">Code</button>
+						<button class="filter-button" data-filter="spray">Photography</button>
+						<button class="filter-button" data-filter="irrigation">Apps</button>
 					</div>
 
-					<div class="menu_tap">
-						<div class="col-sm-6">
-							<h1>Main Dishes</h1>
-							<img src="img/deviderabout.png" class="devider">
-							<div class="price">
-								<div class="col-sm-6">
-									<h3>Cornish Mackerel</h3><hr class="yes">
-									<h3>Roast Lamb</h3><hr class="yes">
-									<h3>Fried Chicken</h3><hr class="yes">
-									<h3>Pastitslo</h3><hr class="yes">
-								</div>	
-								<div class="col-sm-4 col-sm-offset-2">
-									<h3>$3.99</h3><hr>
-									<h3>$5.50</h3><hr>
-									<h3>$5.25</h3><hr>
-									<h3>$5.99</h3><hr>
-								</div>
-							</div>
-						</div>
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter hdpe">
+						<img src="http://fakeimg.pl/270x200/33d1cc/?text=Awesome work" class="image-responsive">
 					</div>
 
-					<div class="menu_tap salads">
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter sprinkle">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter hdpe">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter irrigation">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter spray">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter irrigation">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter spray">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>
+
+					<div class="gallery_product col-lg-3 col-md-6 col-sm-6 col-xs-12 filter irrigation">
+						<img src="http://fakeimg.pl/270x200/ffffff/" class="image-responsive">
+					</div>	
+					<div class="btn_more_info">
+						<button class="btn btn-more">I want more...</button>	
+					</div>										
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="sub">
+						<img src="img/main_int.png" alt="intro">
+						<h2>Some Stuff About Us</h2>
+						<h3>the great team</h3>
+						<hr>
+						<p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt 
+							nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
+						Donec sollicitudin molestie malesuada.</p>
+					</div>
+					<div class="design">
 						<div class="col-sm-6">
-							<h1>Salads</h1>
-							<img src="img/deviderabout.png" class="devider">
-							<div class="price">
-								<div class="col-sm-6">
-									<h3>Olive Special</h3><hr class="yes">
-									<h3>Greek Salad</h3><hr class="yes">
-									<h3>Gusto Salad</h3><hr class="yes">
-								</div>	
-								<div class="col-sm-4 col-sm-offset-2">
-									<h3>$3.99</h3><hr>
-									<h3>$5.50</h3><hr>
-									<h3>$5.25</h3><hr>
-								</div>
-							</div>
+							<h2>Retina Design</h2>
+							<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
+							elit, eget tincidunt nibh pulvinar a.</p>
+							<p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+								Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
+							Donec sollicitudin molestie malesuada.</p>
 						</div>
+					</div>
+					<div class="design_pic">
+						<div class="col-sm-6">
+							<img src="img/MacBook.png" alt="macbook">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Meet the Team</h2>
+					<p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, 
+						eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus.
+					Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+				</div>
+				<div class="team_people">
+					<div class="col-sm-3">
+						<div class="team_p">
+							<img src="img/fakeface.jpg" alt="fakeface">
+							<h3>Luke Skywalker</h3>
+							<p>"I don't understand how we got by those troops.
+							I thought we were dead."</p>							
+						</div>							
+					</div>
+					<div class="col-sm-3">
+						<div class="team_p">
+							<img src="img/fakeface.jpg" alt="fakeface">
+							<h3>Luke Skywalker</h3>
+							<p>"Your clones are very impressive. You must
+							be very proud"</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="team_p">
+							<img src="img/fakeface.jpg" alt="fakeface">
+							<h3>Luke Skywalker</h3>
+							<p> “I don't know who you are or where you 
+								came from, but from 
+							now on you'll do as I tell you, okay?” </p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="team_p">
+							<img src="img/fakeface.jpg" alt="fakeface">
+							<h3>Luke Skywalker</h3>
+							<p>“Do not assume anything Obi-Wan. Clear your mind must
+								be if you are to discover
+							the real villains behind plot.”</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="partners">
+		<div class="container">
+			<div class="row">
+				<div class="partners_ico">
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo1.png" alt="logotype partners">
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo2.png" alt="logotype partners">
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo3.png" alt="logotype partners">
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo4.png" alt="logotype partners">
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo5.png" alt="logotype partners">
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-12">
+						<div class="partner_ico">
+							<img src="img/Logo6.png" alt="logotype partners">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="start">
+		<div class="container">
+			<div class="row">
+				<h2>Start Your Project Now</h2>
+				<p>Leave your description and we start the engine.Don't 
+				worry, you can cancel anytime</p>
+				<button class="btn btn-start">Start Project</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="sub">
+						<img src="img/main_int.png" alt="intro">
+						<h2>Read Our Blog</h2>
+						<h3>New stories</h3>
+						<hr>
+					</div>
+				</div>
+				<div class="news">
+					<div class="col-sm-4">
+						<div class="new">
+							<img src="http://fakeimg.pl/370x130/eff7fa/">
+							<p class="datetime">January 17, 2017</p>
+							<h4>Some awesome blog title here</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="new">
+							<img src="http://fakeimg.pl/370x130/eff7fa/">
+							<p class="datetime">January 17, 2017</p>
+							<h4>Some awesome blog title here</h4>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="new">
+							<img src="http://fakeimg.pl/370x130/eff7fa/">
+							<p class="datetime">January 17, 2017</p>
+							<h4>Some awesome blog title here</h4>
+						</div>
+					</div>
+					<div class="btn_stor">
+						<button class="btn btn-stories">More stories</button>
 					</div>
 				</div>				
+			</div>
 		</div>
-	</section>	
+	</div>
 
-	<section class="guest">
+	<div class="subscribe">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-6 hidden-xs guest_answer">	
-					<h1>Guest Reviews</h1>
-					<img src="img/devider.png" alt="devider" class="devider">
-					<p><span>“</span>If you’ve been to one of our restaurants, you’ve seen – <br>and tasted – what keeps our customers coming back for <br>more. Perfect materials and freshly baked food,<br> delicious Lambda cakes,  muffins, and gourmet coffees <br>make us hard to resist! Stop in today and check us out!
-					- food inc, New York
-					</p>
-					<br>
-					<br>
-					<p class="name_guest">
-						-food inc, New York
-					</p>
+				<div class="col-sm-4 col-sm-push-1">
+					<h4>Subscribe to our Newsletter:</h4>
+				</div>
+				<div class="col-sm-6">
+					<input type="text" placeholder="Enter email Address">
+					<hr>
+				</div>
+				<div class="col-sm-2 col-sm-pull-2">
+					<button class="btn btn-subscribe">Subscribe</button>
 				</div>
 			</div>
 		</div>
-	</section>	
-
-	<section class="contact" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="photo_contact">
-					<div class="col-sm-3">
-						<img src="img/second_img.jpg">
-					</div>
-
-					<div class="col-sm-3">
-						<img src="img/first_img.jpg">
-					</div>
-				</div>
-
-					<div class="col-sm-6">
-						<h1>Just the right food</h1>
-						<img src="img/deviderabout.png" class="devider">
-						<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p><br>
-						<p class="two">Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
-					
-						<div class="form-group">
-					    <!-- <label for="email">Email address:</label> -->
-					    <div class="col-md-6">
-					    	<label for="name">Name</label>
-					    	<input type="name" class="form-control" id="name" placeholder="your name *">
-					    </div>
-					    <div class="col-md-6">
-					    	<label for="second_name">Name</label>
-					    	<input type="second_name" class="form-control" id="second_name" placeholder="your email *">
-					    </div>
-					 
-					    <div class="col-md-6">
-					    	<label for="date">Date</label>
-					    	<input type="date" class="form-control" id="date" placeholder="date *">
-					    </div>
-					    <div class="col-md-6">
-					    	<label for="party">Party number</label>
-					    	<input type="party" class="form-control" id="party" placeholder="party number">
-					    </div>
-					    <div class="col-sm-12">
-					    	<input type="submit" value="Book now!" id="submit">
-					    </div>
-					     
-					  </div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+	</div>
 
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<h1>About us</h1>
-					<img src="img/devider.png" class="devider">
-					<p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.
-						Lamda the best restaurant in town</p>
+					<img src="img/logo.png" alt="logotype" class="logo_footer">
+					<p class="footer_p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+					justo, lacinia eget consectetur sed, convallis at tellus.</p>
+					<p>Created by <a href="https://lensom.github.io/" class="site_portfolio">Alex Rybalko, Ukraine</a></p>
+					<p>&copy; 2018 - <span>A.Y.</span></p>
 				</div>
-
-				<div class="col-sm-4">
-					<h1>Opening Hours</h1>
-					<img src="img/devider.png" class="devider">
-					<p><b>Mon-Thu:</b> 7:00am-8:00pm<br>
-						<b>Fri-Sun:</b> 7:00am-10:00pm</p>
-						<img src="img/cards.png" class="cards">
+				<div class="col-sm-2 col-xs-6">
+					<h4>Links</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Our Services</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
 				</div>
-
-				<div class="col-sm-4">
-					<h1>Our Location</h1>
-					<img src="img/devider.png" class="devider">
-					<p><b>19th Paradise Street Sitia</b><br>
-						<b>128 Meserole Avenue</b></p>
-						<img src="img/socicon.png" class="social">
+				<div class="col-sm-2 col-xs-6">
+					<h4>About Us</h4>
+					<ul>
+						<li><a href="#">Sign in</a></li>
+						<li><a href="#">Register</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<h4>Contact Us</h4>
+					<p class="footer_p_con">Get in touch with us via mail phone.We are
+					waiting for your call or message</p>
+					<button class="btn btn-email"><a href="#">Site-portfolio</a></button>
+					<div class="icons">
+						<div class="icon">
+							<a href="#"><img src="img/Facebook.png" alt="icons"></a>							
+							<a href="#"><img src="img/Twitter.png" alt="icons"></a>
+							<a href="#"><img src="img/Google.png" alt="icons"></a>
+							<a href="#"><img src="img/Dribble.png" alt="icons"></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-	</body>
 
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	</html>
+<!-- 	<div class="loader">
+		<div class="loader_inner"></div>
+	</div> -->
+
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>	
+	
+	<script src="js/common.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	
+</body>
+</html>
