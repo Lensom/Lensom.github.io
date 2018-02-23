@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="libs/magnific/magnific-popup.css"> -->
+	<link rel="stylesheet" href="../../../Lensom.github.io/site/gym/css/main.min.css">
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"><img src="img/logotype.png" alt="logotype"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+					<div class="d-flex">
+						<ul class="navbar-nav ml-auto justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Программы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#inventory">Тренажеры</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Тренеры</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Расписание</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Спортпит</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Контакты</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link phone" href="tel:+380676662317">+38 (067) 666-23-17</a>
+							</li>
+						</ul>
+					</div>					
+				</div>			
+			</div>
+		</nav>
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8 col-md-6">
+						<h1>Тренажерный зал</h1>
+						<h2>В Одессе</h2>
+						<a href="#" class="btn btn-aks">Акции и скидки</a>
+						<p>* Действуют определенный период. Детальная информация у менеджера</p>
+						<ul class="social list-inline">
+							<li class="list-inline-item"><a href="#"><i class="fa fa-vk"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<form accept-charset="UTF-8" role="form" class="form-signin">
+							<h3>Для Вас <span>бесплатная</span><br>тренировка</h3>
+							<fieldset>
+								<label class="panel-login">
+									<div class="login_result"></div>
+								</label>
+								<input class="form-control" placeholder="Имя" id="username" type="text">
+								<input class="form-control" placeholder="Фамилия" id="secondname" type="text">
+								<input class="form-control" placeholder="Телефон" id="phone" type="tel">
+								<br></br>
+								<input class="btn btn-lg btn-success btn-block button popup_c" type="submit"  value="Попробовать!">
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="program">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Программы тренировок</h2>
+					</div>
+					<form action="#" method="post" class="form-inline">
+						<p><select name="gender">
+							<option selected value="for_who">Для кого</option>
+							<option value="male">Мужчина</option>
+							<option value="female">Женщина</option>
+							<option value="every_one">Для всех</option>
+						</select></p>
+						<p><select name="goals">
+							<option selected value="goal">Цель</option>
+							<option value="mass">Набор массы</option>
+							<option value="fat">Жиросжигание</option>
+							<option value="usli">Выносливость</option>
+							<option value="power">Увеличение силы</option>
+						</select></p>
+						<p><select name="types">
+							<option selected value="type">Тип телосложения</option>
+							<option value="ecto">Эктоморф</option>
+							<option value="mezo">Мезоморф</option>
+							<option value="endo">Эндоморф</option>
+							<option value="any">Любой</option>
+						</select></p>
+						<p><select name="complexities">
+							<option selected value="complexity">Сложность</option>
+							<option value="new">Новичок</option>
+							<option value="prod">Любитель</option>
+							<option value="prof">Профессионал</option>
+						</select></p>
+						<a href="#" class="btn-search button">Поиск</a>
+					</form>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/biceps.png" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Программа тренировок с гантелями</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>3</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>3</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>1:10</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Набор массы</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Эктоморф</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Новичок</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/yagodamalina.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Программа тренировок ног</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>5</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>2</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>0:50</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Набор массы</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Мезоморф</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Любитель</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/press.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Программа тренировок пресса</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>4</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>4</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>1:00</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Набор массы</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Любой</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Новичок</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/legs.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Программа тренировок ягодиц</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>8</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>3</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>0:40</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Жиросжигание</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Любой</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Профессионал</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/individ..jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Индивидуальная программа</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>4</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>3</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>1:30</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Набор массы</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Любой</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Новичок</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<div class="training">
+						<div class="card">
+							<img class="card-img-top" src="img/baz.jpg" alt="Card image">
+							<div class="card-img-overlay">
+								<h4 class="card-title">Базовая программа тренировок</h4>
+								<div class="info">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Недель</h3>
+											<h4>6</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Тренировок в н.</h3>
+											<h4>4</h4>
+										</div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4">
+											<h3>Длительность</h3>
+											<h4>1:20</h4>
+										</div>
+									</div>
+								</div>					
+								<div class="info_buttons">
+									<div class="row">
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Жиросжигание</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Эндоморф</button></div>
+										<div class="col-xl-4 col-md-4 col-sm-4 col-4"><button type="button-info" disabled>Профессонал</button></div>
+									</div>									
+								</div>		
+								
+								<a href="#" class="button btn-check">Попробовать!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="inventory" id="inventory">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Тренажеры</h2>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="row no-gutters">
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent5.jpg" target="blanck"><img src="img/invent5.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent2.jpg" target="blanck"><img src="img/invent2.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent3.jpg" target="blanck"><img src="img/invent3.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent4.jpg" target="blanck"><img src="img/invent4.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent8.jpg" target="blanck"><img src="img/invent8.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent6.jpg" target="blanck"><img src="img/invent6.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent1.jpg" target="blanck"><img src="img/invent1.jpg" alt=""></a></div></div>
+						<div class="col-6 col-sm-3 col-md-3"><div><a href="img/invent7.jpg" target="blanck"><img src="img/invent7.jpg" alt=""></a></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+		<div class="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Тренера</h2>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-3">
+					<div class="unhover_img">
+						<img src="img/tr1.jpg" alt="" />
+					</div>
+					<span>Фитнес-тренер</span>
+					<h4>Алексей Мерков</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"  target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>						
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-3">
+					<div class="unhover_img">
+						<img src="img/tr2.jpg" alt="" />
+					</div>
+					<span>Фитнес-тренер</span>
+					<h4>Денис Мельниченко</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"  target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>										
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-3">
+					<div class="unhover_img">
+						<img src="img/tr3.jpg" alt="" />
+					</div>
+					<span>Фитнес-тренер</span>
+					<h4>Максим Никотин</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"  target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>									
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-3">
+					<div class="unhover_img">
+						<img src="img/tr4.jpg" alt="" />
+					</div>
+					<span>Фитнес-тренер</span>
+					<h4>Вадим Носов</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"  target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>											
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="calendr">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Расписание</h2>
+					</div>
+					<div id='wrap'>
+						<div id='calendar'></div>
+						<div style='clear:both'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sportpit">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Спортивное питание</h2>
+					</div>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<h3>Спортивное питание</h3>
+					<h4>От нашей сети спортивных клубов</h4>
+					<h5>Это сывороточный протеин премиум-класса, который пользуется популярностью 
+						у представителей разных видов спорта. Он богат аминокислотами, которые
+						участвуют в процессе восстановления мышечной ткани, рекомендуется
+					к употреблению после интенсивных тренировок.</h5>
+					<p>У нас вы можете купить 100% Whey Gold Standard 2,27 кг – в Одессу, 
+					Херсон и другие города Украины заказы доходят в течение одного-двух дней.</p>
+					<a href="#" class="btn btn-product">Заказать</a>
+				</div>
+				<div class="col-xl-6 col-md-6">
+					<img src="img/sportpit1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="learn">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="main_text">
+						<h2>Видеоуроки</h2>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/99SRFG6tGvs" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vK_vQLSAUeE" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3aYlC1WZ4d0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vNQ31sGKXIg" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Y3FHMXGx34A" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/JFol7P2SZc4" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/DePpVz6QoUs" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/QoXpEcEm3Ko" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3X1iuqsJdho" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bK8wp03PDfQ" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/JWG4ZRvS8n8" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/tKSXgcHEL5Y" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/UxdsdsFhrf0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Zl1Cn4NSIQQ" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Ogb09iFb1nQ" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-3 col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/V6QxRLu7FJA" allowfullscreen></iframe>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<footer>        
+		<div class="footer-top"> 
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-vk fa-2x"></i></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+						<a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+					</div>
+				</div> 
+			</div>  
+		</div>
+
+		<div class="container" style="border-top:1px solid grey;">
+			<div class="row text-center">   
+				<div class="col-lg-12">
+					<ul class="inline-list">
+
+						<li class="list-inline-item">
+							<a href="#">Главная</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="#">Программы</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="#">Тренажеры</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="#">Тренера</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="#">Расписание</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-xl-12">
+					<p class="copyright">Copyright © 2018 All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+	<script src='js/fullcalendar.js'></script>
+</body>
+</html>
