@@ -1,0 +1,513 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	// overflow: hidden
+	max-height: 100vh
+	background-color: #fff
+
+img.d-block
+	max-width: 100%
+
+img
+	max-width: 100%
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+::selection
+	background-color: $accent
+	color: #fff
+
+.slider
+	max-width: 1130px
+	margin: 0 auto
+	top: -20px
+	position: relative
+	.center
+		img
+			width: 205px
+			height: 217px
+			cursor: pointer
+		.numb
+			display: none
+		.slick-next
+    	&:before 
+    		position: relative
+    		right: 530px
+    		top: 112px
+    		content: url(../img/right_arrow.png)
+		.slick-prev
+			&:before 
+    		position: relative
+    		left: 530px
+    		top: 112px
+    		content: url(../img/left_arrow.png)
+		.slick-center
+			width: 250px
+			height: 266px
+			.sl_center
+				color: #fff
+				img
+					border: 2px solid #f6d3ab
+				.numb
+					display: block
+					margin-top: 15px
+					font-size: 16px
+					color: #f6d2b0
+					font-family: "UbuntuRegular", sans-serif
+
+header
+	background-color: #1d2532
+	padding: 32px 0
+	border-bottom: 1px solid #cea56d
+	nav.navbar
+		padding: 0
+		button.navbar-toggler
+			background-color: #cea56d
+			&:not(:disabled):not(.disabled)
+				margin: 0 auto
+			span.fa.fa-bars
+				color: #1d2532
+				font-size: 22px
+				border-radius: 5px
+				// border: 1px solid #fff
+		ul.navbar-nav
+			text-align: center
+			li
+				margin: 0
+				padding-right: 37px
+				a
+					font-family: "UbuntuRegular", sans-serif
+					font-size: 14px
+					color: #d9c0a1
+					padding-right: 50px
+					border-top: 1px solid #1d2532
+					border-bottom: 1px solid #1d2532
+					&:hover
+						border-top: 1px solid #cea56d
+						border-bottom: 1px solid #cea56d
+			.active
+				a
+					border-top: 1px solid #cea56d
+					border-bottom: 1px solid #cea56d
+			.contacts
+				padding-right: 0
+
+footer
+	text-align: center
+	background-color: #131a24
+	position: relative
+	// position: absolute
+	// bottom: 0
+	// right: 0
+	// left: 0
+	ul
+		margin-bottom: 0
+		padding: 7px 0
+		li
+			padding: 0 10px
+			margin-right: 0
+			a
+				color: #f6d2b0
+				&:hover
+					color: #dfa46a
+				&:visited
+					color: #f6d2b0
+
+
+// MAIN MAIN MAIN MAIN MAIN
+
+.main_phone
+	text-align: center
+	padding-top: 100px
+	background-image: url(../img/bg_content.png)
+	display: none
+	h1
+		font-family: "OpenSansRegular", sans-serif
+		color: #e3ab70
+		font-size: 18px
+		max-width: 576px
+		margin: 0 auto
+		text-transform: uppercase
+		line-height: 30px
+		margin: 70px 0
+
+
+.carousel
+	#result
+		text-align: center
+		// top: -334px
+		right: 3px
+		position: relative
+		font-size: 16px
+		font-family: "UbuntuRegular", sans-serif
+		color: #cea56d
+		// top: 9px
+		top: 25px
+
+	.carousel-item
+		min-height: 85.3vh
+		.carousel-caption
+			// top: 21.4%
+			top: 12%
+			h1
+				font-family: "OpenSansRegular", sans-serif
+				color: #e3ab70
+				font-size: 18px
+				max-width: 576px
+				margin: 0 auto
+				text-transform: uppercase
+				line-height: 30px
+				margin-top: 70px
+	.carousel-control-prev
+		opacity: 1
+		top: 20%
+		left: 45%
+		width: 50px
+		.carousel-control-prev-icon
+			background-image: url(../img/left_arrow.png)
+			height: 20px
+			width: 10px
+	.carousel-control-next
+		opacity: 1
+		top: 20%
+		right: 45.5%
+		width: 50px
+		.carousel-control-next-icon
+			background-image: url(../img/right_arrow.png)
+			height: 20px
+			width: 10px
+
+// MAIN MAIN MAIN MAIN
+
+.main_section
+	// width: 755px
+	width: 725px
+	margin: 0 auto
+	.main_logotype
+		margin: 50px 0
+.breadcrumbs
+	nav
+		margin-bottom: 11px
+		.breadcrumb
+			text-align: center
+			background-color: transparent
+			width: 146px
+			margin: 0 auto
+			padding: 0 10px
+			.breadcrumb-item
+				font-size: 12px
+				text-transform: uppercase
+				font-family: "GeorgiaRegular", sans-serif
+				color: #d9c0a1
+				&:before
+					color: #d9c0a1
+					padding: 0 11px
+				a
+					color: #d9c0a1
+.main_text
+	// margin-bottom: 105px
+	margin-bottom: 95px
+	h2
+		color: #fff
+		font-size: 27px
+		font-family: "GeorgiaRegular", sans-serif
+		text-transform: uppercase
+		margin-bottom: 49px
+	p
+		font-family: "UbuntuRegular", sans-serif
+		font-size: 13px
+		color: #fff
+		text-align: left
+		line-height: 20px
+		margin-bottom: 12px
+		a
+			color: #cea56d
+		&:last-child
+			margin-bottom: 0
+
+// ABOUT ABOUT ABOUT ABOUT ABOUT
+
+.about
+	text-align: center
+	background-image: url(../img/about_content.png)
+	background-size: cover
+	background-position: center bottom
+
+//architectural architectural architectural
+
+.architectural
+	text-align: center
+	background-image: url(../img/architectural_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 188px
+
+// construction 
+
+.construction
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 181px
+
+
+// interior
+
+.interior
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 194px
+	.main_text
+		.main_par
+			height: 110px
+			overflow: auto;
+
+// exterior
+
+.exterior
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 148px
+	.main_text
+		.main_par
+			height: 110px
+			overflow: auto;
+
+// landscape 
+.landscape
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 157px
+
+// renovation 
+.renovation
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	h3
+		text-align: left
+		font-size: 13px
+		color: #d0a56e
+		font-family: "UbuntuRegular", sans-serif
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 166px
+	.main_text
+		.main_par
+			height: 130px
+			overflow: auto;
+	.slider
+		margin-top: -19px
+
+// lighting
+.lighting
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.slider
+		margin-top: 50px
+
+// furniture
+.furniture
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			.breadcrumb
+				width: 157px
+	.slider
+		margin-top: 20px
+
+// contact_block
+.contact_block
+	text-align: center
+	background-image: url(../img/construction_content.png)
+	background-size: cover
+	background-position: center bottom
+	.breadcrumbs
+		nav
+			margin-top: 94px
+			.breadcrumb
+				width: 159px
+	.main_text
+		margin-bottom: 57px
+	.form
+		border: 2px solid #f6d3ab
+		// margin-bottom: 140px
+		margin-bottom: 53px
+		padding-bottom: 67px
+		h3
+			color: #fff
+			text-transform: uppercase
+			font-family: "GeorgiaRegular", sans-serif
+			font-size: 22px
+			margin-top: 67px
+			margin-bottom: 5px
+		.form-group
+			width: 380px
+			margin-left: 52px
+			.form-control
+				background: transparent
+				border: none
+				border-bottom: 1px solid #d0a56e
+				color: #d0a56e
+				font-size: 16px
+				padding-top: 30px
+				font-family: "UbuntuRegular"
+				// &:hover
+				// 	border-bottom: 1px solid #000
+				&:focus
+					border-bottom: 1px solid #fff
+					color: #fff
+					box-shadow: none
+			::-webkit-input-placeholder
+				color: #d0a56e
+
+			textarea.form-control
+				background-color: rgba(0,0,0, .3)
+				border-radius: 0
+				border-bottom: 0
+				margin: 30px 0
+				resize: none
+				padding: 10px
+				&:hover
+					border-bottom: none
+				&:focus
+					border-bottom: none
+		button.btn-default
+			background-color: #d0a56e
+			color: #000
+			font-family: "UbuntuRegular", sans-serif
+			font-size: 14px
+			text-transform: uppercase
+			padding: 14px 25px 14px 25px
+			float: right
+			margin-right: 12px
+			border-radius: 0
+			&:hover
+				color: #cea56d
+				background-color: #1d2532
+	.address
+		margin-top: 90px
+		p
+			font-size: 16px
+			color: #fff
+			text-align: left
+			text-transform: uppercase
+			font-family: "OpenSansRegular", sans-serif
+			margin-left: 85px
+			margin-bottom: 50px
+			i
+				position: absolute
+				top: 95px
+				font-size: 40px
+				color: #f6d2b0
+				left: 50px
+	.phone
+		ul
+			list-style-type: none
+			padding: 0
+			text-align: left
+			font-size: 16px
+			margin-left: 85px
+			font-family: "OpenSansRegular", sans-serif
+			margin-bottom: 90px
+			li
+				a
+					color: #fff
+		p
+			i
+				position: absolute
+				color: #f6d2b0
+				font-size: 30px
+				top: 225px
+				left: 50px
+				transform: rotate(90deg)
+	.social_icons
+		ul
+			padding-right: 38px
+			li
+				a
+					i
+						color: #f6d2b0
+						font-size: 50px
+						padding-right: 35px
+
+
+@import "media" // Всегда в конце
+
