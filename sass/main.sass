@@ -1,0 +1,187 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+
+a
+	color: #3399FF
+	&:hover
+		color: #069		
+
+img
+	max-width: 100%
+
+h1,h2,h3,h4,h5,h6
+	font-family: "RobotoBold", sans-serif
+
+p
+	font-family: "RobotoRegular", sans-serif
+
+a.btn
+	color: #fff
+	background-color: #3399FF
+	padding: 6px 16px
+	&:hover
+		color: #3399FF
+		background-color: transparent
+		border: 1px solid #3399FF	
+
+
+
+.top_info
+	text-align: center
+	color: #fff
+	padding: 140px 0 100px 0
+	background-image: url(../img/bg_top.jpeg)
+	background-position: center -65px
+	h1
+		font-size: 54px
+		margin-bottom: 30px
+	h2
+		margin-bottom: 30px
+	p
+		padding: 20px
+
+
+
+.about
+	padding-bottom: 50px
+	ul
+		padding: 0 15px
+	strong
+		color: #3399FF
+	h3
+		margin-top: 40px
+	h4
+		margin-bottom: 20px
+		
+
+footer
+	background-color: #333
+	color: #fff
+	text-align: center
+	padding: 10px 0
+
+.card 
+  // width: 300px
+  height: 300px
+  position: relative
+  perspective: 1000px
+  border: none
+  margin-bottom: 40px
+  background-color: none
+.card
+	&:hover
+		border: none
+	&:hover
+		.front
+			transform: rotateY(180deg)
+
+	&:hover
+	  .back
+	  	transform: rotateY(360deg)
+
+.card_1
+	background-image: url(../sites/CityMod/logo.png)
+
+.card_2
+	background-image: url(../sites/Maslo/logo.png)
+
+.card_3
+	background-image: url(../sites/Afnic/logo.jpg)
+
+.card_4
+	background-image: url(../sites/ProStroy/logo.png)
+
+.card_5
+	background-image: url(../sites/Cote/logo.png)
+
+.card_6
+	background-image: url(../js_projects/shop/logo.png)
+
+.front,
+.back 
+  position: absolute
+  width: 100%
+  height: 100%
+  left: 0
+  top: 0
+  text-align: center
+  transition: 1s
+  backface-visibility: hidden
+  border-radius: 10px
+  &:hover
+  	cursor: pointer
+
+.front 
+  background-color: #fff
+
+.back 
+  background-color: #333
+  color: #fff
+  border-radius: 10px
+  transform: rotateY(180deg)
+  .info
+  	padding-top: 30%
+  	.more
+  		display: inline-block
+  		border-bottom: 1px solid #fff
+  		margin-top: 40px
+  		font-size: 22px
+  		color: #fff
+  		&:hover
+  			text-decoration: none
+  			color: #3399FF
+  			border-bottom: 1px solid #3399FF
+
+.album
+	padding: 30px 0
+
+
+.contacts
+	text-align: center
+	padding: 20px 0
+	i
+		font-size: 30px
+		padding: 0 20px
+	p
+		font-size: 20px
+		padding: 0
+
+@import "media" // Always at the end

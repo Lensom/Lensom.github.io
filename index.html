@@ -1,342 +1,257 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css">
-	<link rel="stylesheet" type="text/css" href="css/hamburgers.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link rel="shortcut icon" href="img/Iconsmind-Outline-Yes.ico">
-	<link rel="canonical" href="https://lensom.github.io/"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Alex Rybalko freelancer, html-encoder. I execute orders for creating sites, and editing">
-	<meta name="theme-color" content="#1a1a1a">
-	<meta name="msapplication-navbutton-color" content="#1a1a1a">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#1a1a1a">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111344058-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
 
-		gtag('config', 'UA-111344058-1');
-	</script>
+	<title>Сайт-портфолио Алексей Рыбалко</title>
+	<meta name="description" content="Сайт-портфолио Алексей Рыбалко">
 
-	<title>Website-portfolio of the html-coder Alexey Rybalko</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="img/favicon/favicon.ico">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.min.css">
+
 </head>
 
-<body class="ishome">
+<body>
 
-	<div id="page-preloader">
-		<div class="contpre">
-			Подождите<br>
-			<h2>идет загрузка</h2>
-		</div>
-	</div>
-
-	<div id="my-page">
-		<header class="site-header" id="particles-js"> 
+	<header>
+		<div class="collapse bg-dark" id="navbarHeader">
 			<div class="container">
-				<div class="row">      				
-					<div class="top-line">
-						<a href="https://lensom.github.io/"><img src="img/logotype.png" class="logo" alt="Portfolio"></a>
-						<div class="phone"><i class="fa fa-mobile"></i> <a href="tel:+380676662317">+38 (067) 666-23-17</a></div>
-						<a href="#my-menu" class="hamburger hamburger--stand">
-							<span class="hamburger-box"><span class="hamburger-inner"></span></span>
-						</a>
-						<nav id="my-menu">
-							<ul>
-								<li class="mm-selected"><a href="#my-page">Main</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#skills">Skills</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
+				<div class="row">
+					<div class="col-sm-8 col-md-7 py-4">
+						<h4 class="text-white">Портфолио</h4>
+						<p class="text-muted">Сайт-портфолио html-верстальщика Алексея Рыбалко. В данном портфолио собраны работы, которые были разработаны мною. Вы можете
+							ознакомиться с ними кликнув <a href="#album">сюда</a>, или пролистав ниже.</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Меню</h4>
+							<ul class="list-unstyled">
+								<li><a href="#about" class="text-white">Обо мне</a></li>
+								<li><a href="#album" class="text-white">Работы</a></li>
+								<li><a href="#contacts" class="text-white">Контакты</a></li>
 							</ul>
-						</nav>
-					</div>
-
-					<div class="header-info">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12">
-									
-									<div class="header-composition">
-										
-										<div class="welcome">
-											<p>Welcome</p>
-											<h1>Alexey Rybalko</h1>
-											<hr>
-											<h2>HTML-Coder</h2>
-										</div>
-
-										<div class="main-button">
-											<a href="index.html#about" class="button">Details</a>
-										</div>
-
-									</div>
-
-								</div>
-							</div>
 						</div>
 					</div>
-					<div class="header-social">
-						<nav class="social">
-							<ul>
-								<li><a href="tel:+30676662317"><i class="fa fa-mobile"></i></a></li>
-								<li><a href="skype:qwertik523"><i class="fa fa-skype"></i></a></li>
-								<li><a href="mailto:magurawork@gmail.com" target="_blanck"><i class="fa fa-envelope"></i></a></li>
-								<li><a href="https://www.behance.net/maguraworkb307" target="_blanck"><i class="fa fa-behance"></i></a></li>
-								<li><a href="https://github.com/Lensom" target="_blanck"><i class="fa fa-github"></i></a></li>
-							</ul>
-						</nav>
-					</div>
-
-					<div class="header-contacts">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12">
-									<i class="fa fa-location-arrow"></i> Odessa, Ukraine
-								</div>
-							</div>
-						</div>
-					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark box-shadow">
+				<div class="container d-flex justify-content-between">
+					<a href="index.html" class="navbar-brand d-flex align-items-center">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+						<strong>Портфолио</strong>
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 				</div>
 			</div>
 		</header>
-	</div>
 
-<!-- 	<div id="my-content">		
-		<div class="about" id="about">
+		<div class="top_info">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="titleabout">About me</h2>
-						<hr>
-					</div>
-					<div class="col-sm-6 col-xs-12 photo">
-						<img src="img/20160917_160219.jpg" id="photo" alt="Alex Rybalko">
-					</div>
-					<div class="col-md-6" id="h2p">
-						<h3>Who am I?</h3>
-						<p>Hello, I'm Alexey Rybalko, html-coder from Odessa, Ukraine.
-							I enjoy taking complex problems and turning them into simple
-							and beautiful websites. I also love the logic and structure
-							of coding and always strive to write elegant and efficient
-						code, whether it be HTML, CSS or jQuery.</p>
-
-						<h3>Education</h3>
-						<p>Odessa National Maritime University. Bachelor Degree Program
-							Subject Area "Computer Science". Professional qualification "Specialist
-						of Information Techologies". </p>
-
-						<h3>Personal Interest</h3>
-						<p>Learning, play some sport, traveling and computer games.</p>
-						<div class="about-social">
-							<nav class="social">
-								<ul>
-									<li><a href="tel:+30676662317"><i class="fa fa-mobile"></i></a></li>
-									<li><a href="skype:qwertik523"><i class="fa fa-skype"></i></a></li>
-									<li><a href="mailto:magurawork@gmail.com" target="_blanck"><i class="fa fa-envelope"></i></a></li>
-									<li><a href="https://www.behance.net/maguraworkb307" target="_blanck"><i class="fa fa-behance"></i></a></li>
-									<li><a href="https://github.com/Lensom" target="_blanck"><i class="fa fa-github"></i></a></li>
-								</ul>
-							</nav>
-						</div>
+					<div class="col-xl-8 offset-xl-2">
+						<h1>Алексей Рыбалко</h1>
+						<h2>Html-верстальщик, junior Front-end developer</h2>
+						<p>Сайт-портфолио html-верстальщика Алексея Рыбалко. В данном портфолио собраны работы, которые были разработаны мною.</p>
+						<p>
+							<a href="#album" class="btn btn-jobs">Мои работы</a>
+							<a href="#contacts" class="btn btn-contact">Контакты</a>
+						</p>
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
-		<!--start-study-section-->
-<!-- 		<div class="study-section" id="skills">
+
+		<div class="about bg-light" id="about">
 			<div class="container">
-				<div class="study-grids">
-					<div class="col-md-12 title_study">
-						<h2>Resume</h2>
-						<hr>
-					</div>
-					<div class="col-md-6 study-grid">
-						<h3>Skills</h3>
-						<div class="study1">
-							<p></p>
-							<p>Create sites with <span>HTML5/CSS3 + Bootstrap</span></p>
-							<p>Have experience working with CMS: <span>Wordpress, Opencart</span></p>							
-							<p>Basic knowledge of <span>JS</span> and <span>jQuery</span></p>
-							<p>Programs: <span>Adobe Photoshop</span>, <span>Sublime Text (+ Emmet)</span>.</p>
-						</div>
-					</div>
-					<div class="col-md-6 study-grid">
-						<h3>Experience</h3>
-						<div class="study2">
-							<h4>HTML5</h4>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-									<span class="sr-only">40% Complete (success)</span>
-								</div>
-							</div>
-							<h4>CSS3</h4>
-							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-									<span class="sr-only">20% Complete</span>
-								</div>
-							</div>
-							<h4>JS</h4>
-							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-									<span class="sr-only">60% Complete (warning)</span>
-								</div>
-							</div>
-							<h4>Design<h4>
-								<div class="progress">
-									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-										<span class="sr-only">80% Complete (danger)</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-xl-8 offset-xl-2">
+						<h3>Рыбалко Алексей Юрьевич</h3>
+						<h4>Html-верстальщик, junior Front-developer</h4>
+						<p><strong>Дата рождения:</strong> 24 сентября 1996 (21 год)</p>
+						<p><strong>Город:</strong> Одесса</p>
+
+						<p><strong>Краткая информация:</strong> С 2017 года занимаюсь web-разработкой. Разрабатываю сайты различной сложности,
+						от лендингов до интернет-магазинов. Увлекаюсь javascript'ом, разрабатываю собственный web-проект. В ближайших планах освоить React.</p>
+
+						<p><strong>Опыт и умения</strong></p>
+						<ul>
+							<li>Знания HTML5 / CSS3</li>
+							<li>Bootstrap 3/4</li>
+							<li>Препроцессор SASS</li>
+							<li>Знание основ JavaScript</li>
+							<li>Опыт работы с jQuery</li>
+							<li>Инструмент сборки: Gulp</li>
+							<li>Опыт работы с CMS: OpenCart, WordPress, Prestashop, Jekyll</li>
+							<li>Опыт работы с GIT</li>
+							<li>Опыт работы с FTP (Filezilla)</li>
+							<li>Опыт верстки под мобильные устройства, верстки адаптивного дизайна</li>
+							<li>Базовые знания SEO</li>
+							<li>Средний уровень английского языка</li>
+							<li>Опыт поддержки существующих проектов</li>
+							<li>Графические редакторы: Adobe Photoshop, Avacode, Zeplin</li>
+							<li>Текстовые редакторы: SublimeText3, VSCode</li>
+							<li>Начальные знания React</li>
+							<li>Опыт работы с API (Telegram)</li>
+						</ul>
+
+						<p><strong>Образование:</strong> высшее, бакалавр, ОНМУ, Информационные технологии и системы.</p>
+
+						<p><strong>Личные качества:</strong> ответственность, коммуникабельность, инициативность, пунктуальность, 
+						аккуратность, вежливость, хорошее чувство юмора.</p>
+
+						<a class="btn" href="resume.doc" download>Скачать резюме</a>
+
 					</div>
 				</div>
-			</div> -->
+			</div>
+		</div>
 
-			<div class="portfolio_works" id="portfolio">
-				<div class="container">
-					<div class="row">
-						<div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h2 class="gallery-title">Portfolio works</h2>
-							<hr>
-						</div>
 
-						<div align="center">
-							<button class="btn btn-default filter-button" data-filter="all">All</button>
-							<button class="btn btn-default filter-button" data-filter="site">Sites</button>
-							<button class="btn btn-default filter-button" data-filter="app">App JS</button>
-							<button class="btn btn-default filter-button" data-filter="psd">PSD to HTML</button>
-							<!-- <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button> -->
-						</div>
-						<br/>
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/Afnic/index.html" target="_blank"><img src="site/Afnic/logo.jpg" class="img-responsive" alt="preview site"></a>
-						</div>
+		<div class="album" id="album">
+			<div class="container">
 
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/ProStroy/index.html" target="_blank"><img src="site/ProStroy/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Сайты</h2>
+					</div>	
 
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/Cтройка/index.html" target="_blank"><img src="site/Cтройка/vita.png" class="img-responsive" alt="preview site"></a>
-						</div>
-
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/gym/index.html" target="_blank"><img src="site/gym/gym.png" class="img-responsive" alt="preview site"></a>
-						</div>
-
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/stroika/index.html" target="_blank"><img src="site/stroika/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>
-
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter psd">
-							<a href="PSD/PSD5/index.html" target="_blank"><img src="PSD/PSD5/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>
-
-<!-- 						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter psd">
-							<a href="PSD/PSD4/index.html" target="_blanck"><img src="PSD/PSD4/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>	 -->
-
-<!-- 						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/Restaraunt/index.html" target="_blanck"><img src="site/Restaraunt/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>	 -->
-<!-- 
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/Miranda/index.html" target="_blanck"><img src="site/Miranda/logo2.png" class="img-responsive" alt="preview site"></a>
-						</div>
-
-						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter psd">
-							<a href="PSD/PSD2/index.html" target="_blanck"><img src="PSD/PSD2/logo.png" class="img-responsive" alt="preview site"></a>
-						</div>		 -->
-
-<!-- 						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter app">
-							<a href="app/main.png" target="_blanck"><img src="app/logo.png" class="img-responsive" alt="preview site"></a>
-						</div> -->
-
-						
-
-<!-- 						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter psd">
-							<a href="PSD/PSD1/index.html" target="_blanck"><img src="PSD/PSD1/logo.png" class="img-responsive" alt="preview site"></a>
-						</div> -->
-
-<!-- 						<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter site">
-							<a href="site/Handmade/index.html" target="_blanck"><img src="site/Handmade/logo.png" class="img-responsive" alt="preview site"></a>
-						</div> -->
-
-						
-<!--             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter psd">
-                <a href="PSD/PSD3/index.html" target="_blanck"><img src="PSD/PSD3/logo.png" class="img-responsive" alt="preview site"></a>
-              </div> -->              
-            </div>
-          </div>
-        </div>
-
-<!-- 				<div class="contactme">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<h1>Contact me</h1>
-								<hr>
-							</div>
-							<div class="col-sm-8">
-									<nav class="follow">
-											<ul>
-												<li><a class="tel" href="tel:+30676662317"><i class="fa fa-mobile"></i>+38 (067) 666-23-17</a></li>
-												<li><a class="skype" href="skype:qwertik523"><i class="fa fa-skype"></i>qwertik523</a></li>
-												<li><a class="mail" href="mailto:magurawork@gmail.com" target="_blanck"><i class="fa fa-envelope"></i>magurawork@gmail.com</a></li>
-												<li><a href="https://www.behance.net/maguraworkb307" target="_blanck"><i class="fa fa-behance"></i>www.behance.net/maguraworkb307</a></li>
-												<li><a class="git" href="https://github.com/Lensom" target="_blanck"><i class="fa fa-github"></i>https://github.com/Lensom</a></li>
-											</ul>
-										</nav>
-											<div class="main-button">
-															<a href="#" class="button" download>Download PDF Resume</a>
-														</div>
-							</div>
-							<div class="col-sm-4 post">
-								<img src="img/Post_Office.png">
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_1"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Интернет Магазин</h4>
+									<p>Магазин мужской одежды</p>
+									<a href="http://citymod.vtest.in.ua/" target="_blank" class="more">Смотреть</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
 
-
-				<div id="my-footer">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<h2>&#9400; Alexey Rybalko property 2017</h2>
-							</div>
-							<div class="col-sm-4">
-								<nav>
-									<ul>
-										<li><a href="https://www.behance.net/maguraworkb307" target="_blanck"><i class="fa fa-behance"></i></a></li>
-										<li><a href="https://github.com/Lensom" target="_blanck"><i class="fa fa-github"></i></a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="col-sm-4 code">
-								Design and Code A.Rybalko
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_2"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Интернет магазин</h4>
+									<p>Магазин растительных масел</p>
+									<a href="sites/Maslo/index.html" target="_blank" class="more">Смотреть</a>
+								</div>
 							</div>
 						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_3"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Landing Page</h4>
+									<p>Таможенно-брокерские услуги</p>
+									<a href="sites/Afnic/index.html" target="_blank" class="more">Смотреть</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_4"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Landing Page</h4>
+									<p>Строительная компания</p>
+									<a href="sites/ProStroy/index.html" target="_blank" class="more">Смотреть</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_5"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Корпоративный сайт</h4>
+									<p>Строительная компания</p>
+									<a href="http://www.new.cotedeazur.ca/" target="_blank" class="more">Смотреть</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<h2>JavaScript</h2>
+					</div>	
+
+
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<div class="card">
+							<div class="front card_6"></div>
+							<div class="back">
+								<div class="info">
+									<h4>Учебный проект JavaScript</h4>
+									<p>Магазин товаров</p>
+									<a href="js_projects/shop/index.html" target="_blank" class="more">Смотреть</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="contacts bg-light" id="contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<h2>Контакты</h2>
+						<p>Телефон: <a href="tel:+380676662317">+38 (067) 666-23-17</a></p>
+						<p>Почта: <a href="mailto:magurawork@gmail.com">magurawork@gmail.com</a></p>
+						<a href="tel:+30676662317"><i class="fa fa-mobile"></i></a>
+						<a href="skype:qwertik523"><i class="fab fa-skype"></i></a>
+						<a href="mailto:magurawork@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://github.com/Lensom" target="_blank"><i class="fab fa-github"></i></a>
 					</div>
 				</div>
+			</div>
+		</div>
 
-				<script src="js/jquery-3.2.1.min.js"></script>
-				<script src="js/jquery.mmenu.all.js"></script>
-				<script src="js/bootstrap.min.js"></script>
-				<script src="js/main.js"></script>
-				<script src="js/particles.min.js"></script>
-				<script src="js/app.js"></script>
-			</body>
-			</html>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						Сайт разработан <a href="#">А.Рыбалко</a> &copy; Все права защищены
+					</div>
+				</div>
+			</div>
+		</footer>
 
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="js/scripts.min.js"></script>
+
+	</body>
+	</html>

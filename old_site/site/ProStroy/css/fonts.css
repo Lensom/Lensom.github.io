@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Robotobold";
+	src: url("../fonts/Robotobold/Robotobold.eot");
+	src: url("../fonts/Robotobold/Robotobold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Robotobold/Robotobold.woff") format("woff"),
+			 url("../fonts/Robotobold/Robotobold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "CleanvertisingLight";
+	src: url("../fonts/CleanvertisingLight/CleanvertisingLight.eot");
+	src: url("../fonts/CleanvertisingLight/CleanvertisingLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/CleanvertisingLight/CleanvertisingLight.woff") format("woff"),
+			 url("../fonts/CleanvertisingLight/CleanvertisingLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+

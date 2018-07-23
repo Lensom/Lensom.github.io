@@ -1,0 +1,372 @@
+@import "vars"
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+
+	header
+		.navbar-nav
+			.nav-item
+				.nav-link
+					padding-right: 25px
+		#search
+			margin-left: 0
+			left: 0
+		#cart
+			left: 0
+	/**/
+	.main
+		// padding-top: 190px
+		padding-top: 150px
+		.down
+			padding-top: 0
+		img
+			max-width: 100%
+	.masla
+		.product
+			.hover_img
+				width: 88%
+
+	.special
+		.img_block
+			img
+				top: -48px
+	.props
+		h2
+			font-size: 24px
+		.fresh
+			img
+				top: 18px
+
+	.product
+		.hover_img
+			width: 94%
+
+
+	.about_text
+		text-align: center
+		.list
+			padding: 20px 15px
+		p
+			text-align: left
+		img
+			text-align: center
+			padding-bottom: 20px
+
+	.catalog
+		.catalog_items
+			.catalog_card
+				&:hover
+					img.cat_card_hover
+						width: 75%
+						height: auto
+	
+	footer
+		h2
+			margin-right: 0
+
+	.main
+		text-align: center
+		padding-top: 80px
+		min-height: 500px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	header
+		a
+			font-size: 15px
+		.tel
+			padding-top: 18px
+		#search
+			padding-top: 12px
+			button
+				padding: 0
+			input
+				width: 108px
+		#cart
+			padding-top: 12px
+		.navbar
+			padding: 0
+			margin: 10px 0
+			li.nav-item
+				text-align: left
+				padding-left: 20px
+				.nav-link
+					&:hover
+						&:before
+							display: none
+						&:after
+							display: none
+
+	.about_text
+		.list
+			padding: 10px
+			padding-left: 30px
+			p
+				margin-left: 0
+
+	.product
+		.hover_img
+			width: 92%
+
+	.card_body
+		ul.delivery
+			li
+				margin-right: 10px
+				a
+					font-size: 14px
+				img
+					padding-right: 5px
+
+	.catalog
+		.catalog_items
+			.catalog_card
+				&:hover
+					img.cat_card_hover
+						width: 78%
+						height: auto
+	
+	footer
+		margin-right: 0
+		.form-line
+			margin-right: 0
+		.contacts
+			p
+				a
+					font-size: 15px
+
+	.btn-up
+		bottom: 80px
+		right: 50px
+	.btn-up.active
+		bottom: 80px
+
+	.masla
+		.nature_product
+			.block_h
+				top: -225px
+				h3
+					font-size: 36px
+		.product
+			.hover_img
+				width: 83%
+
+	.special
+		.img_block
+			img
+				top: -20px
+				width: 88%
+
+	.props
+		h2
+			font-size: 18px
+			text-align: center
+			br
+				display: none
+			img
+				padding-right: 5px
+		p
+			text-align: center
+			br
+				display: none
+
+	.fresh
+		img
+			display: none
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+
+	header
+		#cart
+			.shop_cart
+				padding: 0
+		#search
+			span.input-group-btn
+					position: absolute
+		.tel
+			padding-top: 14px
+			a
+				font-size: 13px
+			i.fa
+				padding-right: 2px
+				font-size: 16px
+
+	.product
+		.hover_img
+			width: 95%
+
+	.card_body
+		ul.delivery
+			li
+				margin-right: 40px
+				a
+					font-size: 16px
+				img
+					padding-right: 10px
+
+	.sidebar
+		display: none
+
+	.masla
+		.product
+			.hover_img
+				width: 89%
+
+	.special
+		padding-bottom: 20px
+		h2
+			padding-top: 30px
+		.img_block
+			display: none
+
+	.props
+		padding-top: 50px
+		h2
+			margin-top: 20px
+
+	footer
+		text-align: center
+		.contacts
+			float: none
+			.triangle
+				display: none
+
+
+@media only screen and (max-width: 576px)
+	header
+		text-align: center
+		margin: 0 auto
+		.tel
+			margin: 10px 0
+		#search
+			float: right
+			left: -40px			
+			span.input-group-btn
+				position: relative
+		#cart
+			left: -58px
+
+
+	.catalog
+		.catalog_items
+			.catalog_card
+				margin: 0 auto
+				text-align: center
+				&:hover
+					img.cat_card_hover
+						width: auto
+						top: 15px
+						margin: 0 auto
+						text-align: center
+						left: 3px
+
+
+	.masla
+		.product
+			.hover_img
+				width: 87%
+
+@media only screen and (max-width: 510px)
+
+	.card_body
+		ul.delivery
+			li
+				display: block
+				margin-bottom: 10px
+				a
+					font-size: 14px
+				img
+					padding-right: 5px
+		ul.col
+			li
+				margin-bottom: 10px
+
+	.catalog
+		.catalog_items
+			.catalog_card
+				h3
+					font-size: 20px
+
+	.card_br
+		.breadcrumbs
+			width: auto
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	header
+		.tel
+			margin: 0 auto
+	.main
+		text-align: center
+		.down
+			margin-right: 0
+
+	.products
+		text-align: center
+		.product
+			.wrapper
+				float: none
+
+	.masla
+		.product
+			.hover_img
+				width: 87%
+
+	.about_text
+		.list
+			.item
+				text-align: center
+				&:before
+					margin-left: -20px
+			.item_2
+				&:before
+					margin-left: -15px
+			.item_1
+				&:before
+					margin-left: -15px
+
+	.masla
+		.nature_product
+			.block_h
+				top: -220px
+				h3
+					font-size: 36px
+
+@media only screen and (max-width : 440px)
+
+	.masla
+		.product
+			.hover_img
+				left: 12px
+
+@media only screen and (max-width : 380px)
+	header
+		#search
+			float: right
+			// left: -40px
+			left: 0	
+			span.input-group-btn
+				position: relative
+		#cart
+			left: -25px
+	.masla
+		.product
+			.hover_img
+				left: 8px
+
+	.special
+		h2
+			line-height: 40px
+			font-size: 26px
+
+@media only screen and (max-width : 320px)
+	.special
+		h2
+			line-height: 40px
+			font-size: 22px
