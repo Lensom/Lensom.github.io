@@ -1,0 +1,36 @@
+body {
+	margin: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+form button.btn {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.jumbotron {
+	padding: 25px;
+}
+
+.well h3 {
+	text-align: left;
+}
+
+#bookmarkResults {
+	background-color: #85aff2;
+	border-radius: 3px;
+	padding: 10px 25px;
+}
+
+#bookmarkResults h3 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#bookmarkResults a {
+	margin: 0 5px;
+}
