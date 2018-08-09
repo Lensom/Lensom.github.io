@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Тесты</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <h1>Выберите тест:</h1>
+                <ol>
+                    <li><a href="#" id="html">HTML</a></li>
+                    <li><a href="#" id="css">CSS</a></li>
+                </ol>
+            </div>
+            <div class="col-xl-6">
+                <h2>Тест</h2>
+
+                <form id="htmlTest" name="html">
+
+                    <p>1. С помощью какого тэга можно сделать текст жирным?</p>
+                    <div class="vars">
+                        <input type="radio" name="question1" value="y"> &lt;b&gt; <br>
+                        <input type="radio" name="question1" value="n"> &lt;i&gt; <br>
+                        <input type="radio" name="question1" value="n"> &lt;pre&gt; <br>
+                        <input type="radio" name="question1" value="n"> &lt;p&gt; <br>
+                    </div>
+
+                    <p>2. Какой тег позволяет вставлять картинки в HTML документы?</p>
+                    <div class="vars">
+                        <input type="radio" name="question2" value="n"> &lt;pic&gt; <br>
+                        <input type="radio" name="question2" value="y"> &lt;img&gt; <br>
+                        <input type="radio" name="question2" value="n"> &lt;picture&gt; <br>
+                        <input type="radio" name="question2" value="n"> &lt;image&gt; <br>
+                    </div>
+
+                    <p>3. Как называется технология позволяющая оформлять HTML документы.</p>
+                    <div class="vars">
+                        <input type="radio" name="question3" value="n"> jQuery<br>
+                        <input type="radio" name="question3" value="n"> PHP<br>
+                        <input type="radio" name="question3" value="y"> CSS<br>
+                        <input type="radio" name="question3" value="n"> XHTML<br>
+                    </div>
+
+                    <p>4. Как правильно задать ссылку на адрес электронной почты:</p>
+                    <div class="vars">
+                        <input type="radio" name="question4" value="n"> &lt;a&gt;href="mail:myrusakov@gmail.com"&gt;Написать&lt;/a&gt;<br>
+                        <input type="radio" name="question4" value="y"> &lt;a&gt;href="mailto:myrusakov@gmail.com">Написать&lt;/a&gt;<br>
+                        <input type="radio" name="question4" value="n"> &lt;a&gt;href="email:myrusakov@gmail.com"&gt;Написать&lt;/a&gt;<br>
+                        <input type="radio" name="question4" value="n"> &lt;a&gt;href="myrusakov@gmail.com"&gt;Написать&lt;/a&gt;<br>
+                    </div>
+
+                    <p>5. Какого тега НЕ существует:</p>
+                    <div class="vars">
+                        <input type="radio" name="question5" value="y"> &lt;adress&gt; <br>
+                        <input type="radio" name="question5" value="n"> &lt;em&gt; <br>
+                        <input type="radio" name="question5" value="n"> &lt;pre&gt; <br>
+                        <input type="radio" name="question5" value="n"> &lt;ol&gt; <br>
+                    </div>
+
+                    <p>6. Какой из представленных вариантов является валидным по XHTML 1.1:</p>
+                    <div class="vars">
+                        <input type="radio" name="question6" value="n"> &lt;img src="foto.jpg" title="Изображение" /&gt;<br>
+                        <input type="radio" name="question6" value="y"> &lt;img src="foto.jpg" alt="Изображение" /&gt;<br>
+                        <input type="radio" name="question6" value="n"> &lt;img src="foto.jpg" alt="Изображение"&gt; <br>
+                        <input type="radio" name="question6" value="n"> &lt;img src="foto.jpg" title="Изображение"&gt;<br>
+                    </div>
+
+                    <p>7. Какой тег нужен для вывыда кода на языке Java?</p>
+                    <div class="vars">
+                        <input type="radio" name="question7" value="n"> &lt;java&gt; <br>
+                        <input type="radio" name="question7" value="y"> &lt;code&gt; <br>
+                        <input type="radio" name="question7" value="n"> &lt;pre&gt; <br>
+                        <input type="radio" name="question7" value="n"> &lt;p&gt; <br>
+                    </div>
+
+                    <p>8. Какой тег является дочерним для &lt;!DOCTYPE&gt;:</p>
+                    <div class="vars">
+                        <input type="radio" name="question8" value="n"> &lt;body&gt; <br>
+                        <input type="radio" name="question8" value="n"> &lt;head&gt; <br>
+                        <input type="radio" name="question8" value="y"> Никакой <br>
+                        <input type="radio" name="question8" value="n"> &lt;html&gt; <br>
+                    </div>
+
+                    <p>9. Какой из вариантов содержит ошибку:</p>
+                    <div class="vars">
+                        <input type="radio" name="question9" value="n"> &lt;a href="page.html#17"&gt;Ссылка&lt;/a&gt;<br>
+                        <input type="radio" name="question9" value="y"> &lt;a href="page.html" #top&gt;Ссылка&lt;/a&gt;<br>
+                        <input type="radio" name="question9" value="n"> &lt;a href="page.html#top"&gt;Ссылка&lt;/a&gt;<br>
+                        <input type="radio" name="question9" value="n"> &lt;a href="page.html"&gt;Ссылка&lt;/a&gt;<br>
+                    </div>
+
+                    <p>10. На сайте внутри папки pages находится файл page.html. А внутри папки images находится файл foto.jpg. Причём папки images и pages лежат в корне сайта. Как правильно написать путь к foto.jpg из файла page.html:</p>
+                    <div class="vars">
+                        <input type="radio" name="question10" value="n"> images/foto.jpg<br>
+                        <input type="radio" name="question10" value="n"> pages/images/foto.jpg<br>
+                        <input type="radio" name="question10" value="n"> ../images/pages/foto.jpg<br>
+                        <input type="radio" name="question10" value="y"> ../images/foto.jpg<br>
+                    </div>
+
+                    <input type="button" class="btn btn-off" id="btn" value="Завершить тест">
+                    <input type="button" class="refresh" id="refresh" value="Обновить">
+
+                </form>
+
+                <form id="cssTest" name="css">
+
+                    <p>1. С помощью какого псевдоэлемента можно поменять цвет ссылки при наведении? </p>
+                    <div class="vars">
+                        <input type="radio" name="question11" value="n"> active <br>
+                        <input type="radio" name="question11" value="n"> visited <br>
+                        <input type="radio" name="question11" value="y"> hover <br>
+                        <input type="radio" name="question11" value="n"> focus <br>
+                    </div>
+
+                    <p>2. Есть такой HTML-код: &lt;p&gt;&lt;span&gt;class="blue"&gt;Синий&lt;/span&gt; не синий&lt;/p&gt;. Какой CSS-код внутри тега &lt;span&gt; сделает синий цвет? </p>
+                    <div class="vars">
+                        <input type="radio" name="question12" value="n"> p span {color: blue}<br>
+                        <input type="radio" name="question12" value="n"> span.blue {color: blue}<br>
+                        <input type="radio" name="question12" value="n"> span {color: blue}<br>
+                        <input type="radio" name="question12" value="y"> Все ответы верны <br>
+                    </div>
+
+                    <p>3. Какой вариант задания цвета НЕ сработает?</p>
+                    <div class="vars">
+                        <input type="radio" name="question13" value="n"> color: #000;<br>
+                        <input type="radio" name="question13" value="y"> color: #hhh;<br>
+                        <input type="radio" name="question13" value="n"> color: #aaaaaa;<br>
+                        <input type="radio" name="question13" value="n"> color: #aaa;<br>
+                    </div>
+
+                    <p>4. Как изменить цвет фона для всех элементов h1 на странице?</p>
+                    <div class="vars">
+                        <input type="radio" name="question14" value="y"> h1 {background-color: #ccc;} <br>
+                        <input type="radio" name="question14" value="n"> h1.all {background-color: #ccc;} <br>
+                        <input type="radio" name="question14" value="n"> h1:all {background-color: #ccc;}<br>
+                        <input type="radio" name="question14" value="n"> h1[all] {background-color: #ccc;} <br>
+                    </div>
+
+                    <p>5. Какой селектор написан с ошибкой?</p>
+                    <div class="vars">
+                        <input type="radio" name="question15" value="n"> input[type="text"] <br>
+                        <input type="radio" name="question15" value="n"> div p <br>
+                        <input type="radio" name="question15" value="n"> input.text <br>
+                        <input type="radio" name="question15" value="y"> input["text"] <br>
+                    </div>
+
+                    <p>6. Какой CSS-код написан правильно?</p>
+                    <div class="vars">
+                        <input type="radio" name="question16" value="y"> div {border: 1px solid #ccc;}<br>
+                        <input type="radio" name="question16" value="n"> div {border: 1px solid #hhh;}<br>
+                        <input type="radio" name="question16" value="n"> div {borde: 1px solid #hhh;} <br>
+                        <input type="radio" name="question16" value="n"> div border: 1px solid #ccc;}<br>
+                    </div>
+
+                    <p>7. Какое принципиальное отличие селектора ID от селектора CLASS?</p>
+                    <div class="vars">
+                        <input type="radio" name="question17" value="n"> Разница только в наборе свойств, который может быть использован для этих селекторов. Например, для ID нельзя задавать свойство border, а для CLASS можно. <br>
+                        <input type="radio" name="question17" value="n"> Никакого отличия между ними нет. <br>
+                        <input type="radio" name="question17" value="n"> CLASS должен быть уникальным на странице, а одинаковый ID может быть у нескольких элементов. <br>
+                        <input type="radio" name="question17" value="y"> ID должен быть уникальным на странице, а одинаковый CLASS может быть у нескольких элементов. <br>
+                    </div>
+
+                    <p>8. Александр задал шрифт следующим образом: font-family: Arial, Times New Roman, Helvetica, sans-serif;. Что он сделал не так?</p>
+                    <div class="vars">
+                        <input type="radio" name="question18" value="n"> Нельзя использовать больше 3 шрифтов <br>
+                        <input type="radio" name="question18" value="y"> Забыл поставить кавычки у Times New Roman<br>
+                        <input type="radio" name="question18" value="n"> Никакой <br>
+                        <input type="radio" name="question18" value="n"> Надо задать font: <br>
+                    </div>
+
+                    <p>9. Как правильно подключать файл стилей?</p>
+                    <div class="vars">
+                        <input type="radio" name="question19" value="n"> &lt;ink rel='stylesheet' type='text/css' href='styles/main.css' /&gt;<br>
+                        <input type="radio" name="question19" value="y"> &lt;link rel='stylesheet' type='text/css' href='styles/main.css' /&gt;<br>
+                        <input type="radio" name="question19" value="n"> &lt;link rel='stylesheet' type='text/css' src='styles/main.css' /&gt;<br>
+                        <input type="radio" name="question19" value="n"> &lt;link type='text/css' href='styles/main.css' /&gt;<br>
+                    </div>
+
+                    <p>10. В каком из представленных ниже вариантов содержится явная ошибка:</p>
+                    <div class="vars">
+                        <input type="radio" name="question20" value="n"> p span {font-size: 150%;}<br>
+                        <input type="radio" name="question20" value="n"> p span#text {font-size: 150%;}<br>
+                        <input type="radio" name="question20" value="n"> p {font-size: 150%;}<br>
+                        <input type="radio" name="question20" value="y"> p text (font-size: 150%;} <br>
+                    </div>
+
+                    <input type="button" class="btn btn-off" id="btn_css" value="Завершить тест">
+                    <input type="button" class="refresh" id="refresh_css" value="Обновить">
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Результат</h5>
+                    <button type="button" class="close" id="close">
+          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3 id="message"></h3>
+                    <p id="number_correct">Тест окончен</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="btn_close">Выйти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html
