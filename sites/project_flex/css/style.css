@@ -1,0 +1,103 @@
+        html {
+            box-sizing: border-box;
+            background: #ffc600;
+            font-family: 'helvetica neue';
+            font-size: 20px;
+            font-weight: 200;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .panels {
+            min-height: 100vh;
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .panel {
+            background: #6B0F9C;
+            box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+            color: white;
+            text-align: center;
+            /* Safari transitionend event.propertyName === flex */
+            /* Chrome + FF transitionend event.propertyName === flex-grow */
+            transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+            font-size: 20px;
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .panel1 {
+            background-image: url(http://promostudia.by/wp-content/uploads/%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-%D1%84%D0%BE%D1%82%D0%BE%D0%BE%D0%B1%D0%BE%D0%B8-00013.jpg);
+        }
+        
+        .panel2 {
+            background-image: url(http://different-study.ucoz.ru/_nw/0/69707142.jpg);
+        }
+        
+        .panel3 {
+            background-image: url(http://www.nat-geo.ru/upload/iblock/799/799fe56b882203e85c622f579eaa0d59.jpg);
+        }
+        
+        .panel4 {
+            background-image: url(https://35photo.ru/photos_series/870/870184.jpg);
+        }
+        
+        .panel5 {
+            background-image: url(https://www.o-prirode.com/_nw/12/16560398.jpg);
+        }
+        
+        .panel>* {
+            margin: 0;
+            width: 100%;
+            transition: transform 0.5s;
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .panel>*:first-child {
+            transform: translateY(-100%);
+        }
+        
+        .panel>*:last-child {
+            transform: translateY(100%);
+        }
+        
+        .panel.open-active>*:first-child {
+            transform: translateY(0);
+        }
+        
+        .panel.open-active>*:last-child {
+            transform: translateY(0);
+        }
+        
+        .panel p {
+            text-transform: uppercase;
+            font-family: 'Indie Flower', cursive;
+            text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+            font-size: 2em;
+        }
+        
+        .panel p:nth-child(2) {
+            font-size: 4em;
+        }
+        
+        .panel.open {
+            flex: 5;
+            font-size: 40px;
+        }
