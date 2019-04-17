@@ -1,0 +1,457 @@
+@import "_vars.styl"
+
+/*==========  Desktop First  ==========*/
+
+@media (max-width: 1920px)
+	.btn
+		&-more
+			font-size 20px
+
+	.menu
+		justify-content space-evenly
+		margin-left 0
+		&-social
+			margin-right 0
+		&-wrapper
+			margin 0 auto
+
+
+@media (max-width: 1680px)
+
+	.btn
+		font-size 16px
+		&-more 
+			padding 17px 40px
+	
+	.header
+		&-subtitle
+			max-width 650px
+	
+
+	.header
+		&-content
+			margin-top 215px
+		&-title
+			font-size 60px
+		
+@media (max-width : 1460px)
+	.title 
+		font-size 60px
+	.description
+		font-size 18px
+
+	.studio
+		padding 50px 0 110px
+		&-description
+			margin-top 15px
+		&-items
+			width 960px
+			margin 0 auto
+			padding 60px 0 35px
+		&-item
+			height 460px
+			width 460px	
+			max-width 460px
+			margin 24px 0 15px
+			&:last-child
+				margin-top -226px
+			span 
+				font-size 16px
+		.small-size.studio-item
+			width 210px
+			height 210px
+			max-width 210px
+			span 
+				top 52px
+		&-btn
+			margin-top 30px
+	.btn
+		font-size 14px
+		&-more
+			padding 13px 24px
+
+		
+	.music
+		padding 60px 0 75px
+		&-title
+			padding-bottom 20px
+		&-item-text
+			font-size 18px
+			width 50%
+			padding-left 30px
+			line-height 24px
+			p 
+				margin-bottom 25px
+		.owl
+			&-carousel
+			&-item
+				width 450px !important
+				height 450px 
+				margin-left auto
+		&-btn
+			margin-top 80px
+		&-item-slide
+			width 50%
+		&-slider
+			justify-content space-between
+
+	.post
+		padding 60px 0 75px
+		&-btn
+			margin-top 300px
+
+	.case
+		padding 60px 0 330px
+		&-items
+			justify-content space-evenly
+		&-item
+			width 446px
+			padding-bottom 0
+			margin-top 90px
+		&-img
+			height 288px
+		&-subtitle
+			font-size 36px
+		&-subdescription
+			font-size 18px
+	
+	.btn-case
+		&:before
+			transform: scale(0.7)
+	
+	.footer
+		&-copyright
+			font-size 18px
+		&-bottom
+			padding 8px 0
+
+	.header
+		&-subtitle
+			max-width 530px
+	
+	
+@media (max-width : 1320px)
+	.menu
+		&-item
+			margin 0 4px
+			a 
+				font-size 14px
+			img 
+				width 50%
+		&-social
+			transform scale(.7)
+	.header
+		&-title
+			line-height 50px
+
+@media (max-width 1240px)
+	.footer
+		&-top
+			padding-top 30px
+		&-items
+			padding 9px 30px
+		&-address
+			font-size 16px
+			a 
+				font-size 16px
+		&-title
+			font-size 24px
+		&-links
+			margin-right 0
+		&-link
+			a 
+				font-size 16px
+		&-btn
+			top 25px
+			right 25px
+			.navigation-bar
+				width 50px
+				top 20px
+		&-subtext
+			font-size 16px
+
+	.form-wrapper
+		width 218px
+
+
+/* Medium Devices, Desktops */
+@media (max-width : 998px)
+	.menu
+		justify-content flex-end
+		padding-top 30px
+		&-wrapper
+			display flex
+			position fixed
+			top 0
+			left 0
+			right 0
+			bottom 0
+			background-color $black-2
+			flex-direction column
+			align-items center
+			justify-content center
+			z-index 2
+			transform translateX(-100%)			
+		&-item 
+			margin 0
+			a 
+				font-size 22px
+			&:nth-child(4)
+				display none
+		&-social 
+			display none
+	.navigation
+		&-btn 
+			display block
+
+	.title
+		font-size 44px
+	.description
+		font-size 14px
+		br
+			display none
+
+	.studio
+		padding 30px 0 80px
+		&-items
+			width 738px
+		&-item
+			width 345px
+			height 345px
+			max-height 345px
+			margin 30px 0 15px
+			&:before
+				top 25px
+				left 25px
+				width 70px
+			&:after
+				left 25px
+				bottom 25px
+			span
+				top 18px
+				left 27px
+			&:last-child
+				margin-top -166px
+			span 
+				font-size 12px
+		.small-size.studio-item
+			width 148px
+			height 148px
+			max-height 148px
+			&:before
+				top 20px
+				left 20px
+			span
+				top 25px
+				left 20px
+			&:after
+				bottom 25px
+				left 20px
+
+	.music
+		padding 30px 0 80px
+		&-btn
+			margin-top 35px
+		&-item-text
+			font-size 14px
+			p 
+				margin-bottom 15px
+		.owl
+			&-carousel
+			&-item
+				width 350px !important
+				height 350px
+
+	.post
+		padding 30px 0 75px
+		.title
+			line-height 50px
+		&-description
+			p
+				padding-bottom 5px
+
+	.case
+		padding-top 30px
+		&-item
+			width 330px
+		&-img
+			height 212px
+		&-body
+			padding 15px
+		&-subtitle
+			font-size 26px
+			line-height 34px
+		&-subdescription
+			font-size 14px
+			line-height 24px
+		&-links
+			font-size 16px
+	
+
+	.footer
+		input 
+			padding 5px 10px
+		&-top
+			padding-top 30px
+		&-items
+			padding 9px 15px
+		&-address
+			font-size 14px
+			p 
+				word-break break-all
+			a 
+				font-size 14px
+		&-title
+			font-size 20px
+		&-links
+			margin-right 0
+		&-link
+			a 
+				font-size 14px
+		&-btn
+			top 25px
+			right 25px
+			.navigation-bar
+				width 50px
+				top 20px
+		&-subtext
+			font-size 14px
+			padding-top 20px
+			br 
+				display none
+
+	.form-wrapper
+		width 218px
+
+	.footer
+		&-copyright
+			font-size 14px
+		
+
+/* Small Devices, Tablets */
+@media (max-width : 768px)
+	.title
+		line-height 28px
+		font-size 28px
+	.description
+		font-size 14px
+	.btn
+		font-size 14px
+
+	.music
+		&-slider
+			flex-direction column
+		&-item-slide
+			width 100%
+		.owl
+			&-carousel
+			&-item
+				margin 0 auto
+		&-item-text
+			width 100%
+			margin-top 70px
+			padding-left 0
+		&-btn
+			text-align center
+
+	.studio
+		&-items
+			width 100%
+			flex-direction column
+		&-item
+			width 100%
+			margin 20px auto 40px
+			&:last-child
+				margin-top 20px
+		.small-size.studio-item
+			width 100%
+			height 465px
+			max-height 345px
+			max-width 460px
+	
+	.post
+		&-btn
+			margin-top 212px
+
+	.case
+		&-items
+			flex-direction column
+		&-item
+			margin 60px auto 30px
+	
+	.footer
+		&-items
+			flex-direction column
+			align-items center
+			text-align center
+		&-top
+			max-height none
+		&-subscribe
+			margin-left 0
+		button[type=submit]
+			margin 30px auto 30px
+
+	.form-wrapper
+		width 268px
+
+
+/* Extra Small Devices, Phones */
+@media (max-width : 560px)
+
+	.description 
+		br 
+			display none
+
+	.studio
+		&-item
+			max-height 290px
+		.small-size.studio-item
+			max-height 290px
+	
+
+@media (max-width : 460px)
+
+	.case
+		&-item
+			width 100%
+
+
+@media (max-width : 380px)
+
+	.music
+		&-item-text
+			margin-top 20px
+		.owl
+			&-carousel,
+			&-item
+				width 290px !important
+			&-dots
+				margin-top -40px
+		
+
+@media (max-height : 998px) and (min-width : 998px)
+
+	.header
+		&-subtitle
+			margin-top 60px
+		&-content
+			margin-top 120px
+
+@media (max-height : 800px) and (min-width : 700px)
+
+	.header
+		&-subtitle
+			margin-top 40px
+		&-content
+			margin-top 65px
+		&-title
+			font-size 38px
+			line-height 35px
+			&:after
+				left -91px
+				bottom -75px
+				width 37%
+		&-btn
+			margin-top 20px
+		&-slide
+			bottom 105px
