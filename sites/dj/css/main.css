@@ -144,7 +144,7 @@ a {
 .btn-slide {
   display: inline-block;
 }
-.logotype-wrapper {
+.logotype-mobile {
   display: none;
 }
 hr {
@@ -168,12 +168,14 @@ hr {
   z-index: 5;
   border: none;
   display: none;
+  top: 10px;
+  left: -20px;
 }
 .navigation-bar {
   display: block;
   width: 26px;
   height: 2px;
-  background-color: #fff;
+  background-color: #4f4e4e;
   position: absolute;
   top: 0;
   left: 0;
@@ -187,15 +189,15 @@ hr {
 .bar-3 {
   top: 16px;
 }
-.active .bar-1 {
-  background: transparent;
+.menu .active .bar-1 {
+  background-color: transparent;
 }
-.active .bar-2 {
+.menu .active .bar-2 {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-.active .bar-3 {
+.menu .active .bar-3 {
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -265,6 +267,9 @@ hr {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
+}
+.menu .navigation-bar {
+  background-color: #fff;
 }
 .header {
   background-color: #191919;
@@ -465,7 +470,7 @@ hr {
   left: 24px;
 }
 .studio .small-size.studio-item span {
-  top: 38px;
+  top: 47px;
   left: 26px;
   line-height: 24px;
 }
@@ -642,7 +647,7 @@ hr {
   transition: all 0.3s ease;
 }
 .case-subbtn .btn-case:hover {
-  border-bottom: 2px solid #000;
+  color: #4f4e4e;
 }
 .case .btn-more {
   background: transparent;
@@ -660,7 +665,7 @@ hr {
 .btn-case:before {
   content: '';
   position: absolute;
-  top: 7px;
+  top: 5px;
   left: 7px;
   background-image: url("../img/case-arrow.png");
   width: 10px;
@@ -895,6 +900,8 @@ hr {
     max-width: 650px;
   }
   .header-content {
+    max-width: 1240px;
+    margin: 0 auto;
     margin-top: 215px;
   }
   .header-title {
@@ -906,13 +913,16 @@ hr {
     font-size: 60px;
   }
   .description {
+    font-size: 16px;
+  }
+  .menu-item a {
     font-size: 18px;
   }
   .studio {
     padding: 50px 0 110px;
   }
   .studio-description {
-    margin-top: 15px;
+    margin-top: 25px;
   }
   .studio-items {
     width: 960px;
@@ -937,7 +947,7 @@ hr {
     max-width: 210px;
   }
   .studio .small-size.studio-item span {
-    top: 52px;
+    top: 43px;
   }
   .studio-btn {
     margin-top: 30px;
@@ -949,7 +959,7 @@ hr {
     padding: 13px 24px;
   }
   .music {
-    padding: 60px 0 75px;
+    padding: 60px 0 125px;
   }
   .music-title {
     padding-bottom: 20px;
@@ -962,6 +972,7 @@ hr {
   }
   .music-item-text p {
     margin-bottom: 25px;
+    max-width: 420px;
   }
   .music .owl-carousel,
   .music .owl-item {
@@ -970,7 +981,7 @@ hr {
     margin-left: auto;
   }
   .music-btn {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .music-item-slide {
     width: 50%;
@@ -985,6 +996,12 @@ hr {
   }
   .post-btn {
     margin-top: 300px;
+  }
+  .post-title {
+    padding-bottom: 30px;
+  }
+  .post .title {
+    line-height: 60px;
   }
   .case {
     padding: 60px 0 330px;
@@ -1008,6 +1025,9 @@ hr {
   .case-subdescription {
     font-size: 18px;
   }
+  .case-title {
+    margin-bottom: 25px;
+  }
   .btn-case:before {
     -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
@@ -1021,6 +1041,15 @@ hr {
   }
   .header-subtitle {
     max-width: 530px;
+  }
+  .header-content {
+    max-width: 966px;
+  }
+  .header-title:after {
+    left: -570px;
+  }
+  .menu-social {
+    left: -60px;
   }
 }
 @media (max-width: 1320px) {
@@ -1079,7 +1108,15 @@ hr {
     width: 218px;
   }
 }
+@media (max-width: 1120px) {
+  .menu-social {
+    left: 0;
+  }
+}
 @media (max-width: 998px) {
+  .header-content {
+    max-width: 738px;
+  }
   .menu {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -1176,7 +1213,7 @@ hr {
     left: 20px;
   }
   .studio .small-size.studio-item span {
-    top: 25px;
+    top: 22px;
     left: 20px;
   }
   .studio .small-size.studio-item:after {
@@ -1184,7 +1221,7 @@ hr {
     left: 20px;
   }
   .music {
-    padding: 30px 0 80px;
+    padding: 30px 0 100px;
   }
   .music-btn {
     margin-top: 35px;
@@ -1194,6 +1231,7 @@ hr {
   }
   .music-item-text p {
     margin-bottom: 15px;
+    max-width: 350px;
   }
   .music .owl-carousel,
   .music .owl-item {
@@ -1280,6 +1318,14 @@ hr {
   .footer-copyright {
     font-size: 14px;
   }
+  .logotype-mobile {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 15px;
+    top: 15px;
+  }
 }
 @media (max-width: 768px) {
   .title {
@@ -1310,6 +1356,9 @@ hr {
     margin-top: 70px;
     padding-left: 0;
   }
+  .music-item-text p {
+    max-width: 100%;
+  }
   .music-btn {
     text-align: center;
   }
@@ -1332,6 +1381,15 @@ hr {
     height: 465px;
     max-height: 345px;
     max-width: 460px;
+  }
+  .studio .small-size.studio-item:before {
+    top: 25px;
+    left: 25px;
+    width: 70px;
+  }
+  .studio .small-size.studio-item span {
+    top: 28px;
+    left: 27px;
   }
   .post-btn {
     margin-top: 212px;
@@ -1377,6 +1435,12 @@ hr {
   }
   .studio .small-size.studio-item {
     max-height: 290px;
+  }
+  .header-title:after {
+    left: -319px;
+    -webkit-transform: scale(0.4);
+        -ms-transform: scale(0.4);
+            transform: scale(0.4);
   }
 }
 @media (max-width: 460px) {

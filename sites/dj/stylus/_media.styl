@@ -30,20 +30,29 @@
 
 	.header
 		&-content
+			max-width 1240px
+			margin 0 auto
 			margin-top 215px
 		&-title
 			font-size 60px
+			// &:after
+			// 	left -200px
 		
 @media (max-width : 1460px)
 	.title 
 		font-size 60px
 	.description
-		font-size 18px
+		font-size 16px
+	
+	.menu
+		&-item
+			a
+				font-size 18px
 
 	.studio
 		padding 50px 0 110px
 		&-description
-			margin-top 15px
+			margin-top 25px
 		&-items
 			width 960px
 			margin 0 auto
@@ -62,7 +71,8 @@
 			height 210px
 			max-width 210px
 			span 
-				top 52px
+				// top 52px
+				top 43px
 		&-btn
 			margin-top 30px
 	.btn
@@ -72,7 +82,7 @@
 
 		
 	.music
-		padding 60px 0 75px
+		padding 60px 0 125px
 		&-title
 			padding-bottom 20px
 		&-item-text
@@ -82,6 +92,7 @@
 			line-height 24px
 			p 
 				margin-bottom 25px
+				max-width 420px
 		.owl
 			&-carousel
 			&-item
@@ -89,7 +100,7 @@
 				height 450px 
 				margin-left auto
 		&-btn
-			margin-top 80px
+			margin-top 60px
 		&-item-slide
 			width 50%
 		&-slider
@@ -99,6 +110,10 @@
 		padding 60px 0 75px
 		&-btn
 			margin-top 300px
+		&-title
+			padding-bottom 30px
+		.title
+			line-height 60px
 
 	.case
 		padding 60px 0 330px
@@ -114,6 +129,8 @@
 			font-size 36px
 		&-subdescription
 			font-size 18px
+		&-title
+			margin-bottom 25px
 	
 	.btn-case
 		&:before
@@ -128,7 +145,15 @@
 	.header
 		&-subtitle
 			max-width 530px
+		&-content
+			max-width 966px
+		&-title
+			&:after
+				left -570px
 	
+	.menu
+		&-social
+			left -60px
 	
 @media (max-width : 1320px)
 	.menu
@@ -173,9 +198,17 @@
 	.form-wrapper
 		width 218px
 
+@media (max-width : 1120px)
+	.menu
+		&-social
+			left 0
 
 /* Medium Devices, Desktops */
 @media (max-width : 998px)
+	.header
+		&-content
+			max-width 738px 
+
 	.menu
 		justify-content flex-end
 		padding-top 30px
@@ -242,20 +275,22 @@
 				top 20px
 				left 20px
 			span
-				top 25px
+				// top 25px
+				top 22px
 				left 20px
 			&:after
 				bottom 25px
 				left 20px
 
 	.music
-		padding 30px 0 80px
+		padding 30px 0 100px
 		&-btn
 			margin-top 35px
 		&-item-text
 			font-size 14px
 			p 
 				margin-bottom 15px
+				max-width 350px
 		.owl
 			&-carousel
 			&-item
@@ -326,10 +361,18 @@
 	.footer
 		&-copyright
 			font-size 14px
-		
+	
+	.logotype-mobile
+		display block
+		position absolute
+		width 150px
+		height 150px
+		left 15px
+		top 15px
 
 /* Small Devices, Tablets */
 @media (max-width : 768px)
+
 	.title
 		line-height 28px
 		font-size 28px
@@ -351,6 +394,8 @@
 			width 100%
 			margin-top 70px
 			padding-left 0
+			p
+				max-width 100%
 		&-btn
 			text-align center
 
@@ -368,6 +413,13 @@
 			height 465px
 			max-height 345px
 			max-width 460px
+			&:before
+				top 25px
+				left 25px
+				width 70px
+			span
+				top 28px
+				left 27px
 	
 	.post
 		&-btn
@@ -407,6 +459,12 @@
 			max-height 290px
 		.small-size.studio-item
 			max-height 290px
+	
+	.header
+		&-title
+			&:after
+				left -319px
+				transform scale(.4)
 	
 
 @media (max-width : 460px)

@@ -102,7 +102,7 @@ a
 			border-color $white-2
 	&-slide
 		display inline-block
-.logotype-wrapper
+.logotype-mobile
 	display none
 
 hr 
@@ -111,6 +111,8 @@ hr
 	height 3px
 	position relative
 	top 16px
+
+
 
 // -------------------------- Close button --------------------------
 .navigation
@@ -125,11 +127,13 @@ hr
 		z-index 5
 		border none
 		display none
+		top 10px
+		left -20px
 	&-bar 
 		display block
 		width 26px
 		height 2px
-		background-color $white
+		background-color $close
 		position absolute
 		top 0
 		left 0
@@ -139,14 +143,15 @@ hr
 .bar-3
 	top 16px	
 
-.active 
-	.bar-1
-		background transparent
-	.bar-2
-		transform rotate(45deg)
-	.bar-3
-		transform rotate(-45deg)
-		top 8px
+.menu
+	.active 
+		.bar-1
+			background-color transparent
+		.bar-2
+			transform rotate(45deg)
+		.bar-3
+			transform rotate(-45deg)
+			top 8px
 
 // -------------------------- Menu --------------------------
 .menu 
@@ -190,6 +195,8 @@ hr
 		transition all 1s ease
 	&-wrapper.show
 		transform translateX(0)
+	.navigation-bar
+		background-color $white
 
 // -------------------------- Header --------------------------
 .header 
@@ -356,7 +363,8 @@ hr
 			top 40px
 			left 24px
 		span 
-			top 38px
+			// top 38px
+			top 47px
 			left 26px
 			line-height 24px
 		&:after 
@@ -497,7 +505,7 @@ hr
 		transition all .3s ease
 		.btn-case
 			&:hover
-				border-bottom 2px solid $black
+				color $close
 	.btn-more
 		background transparent
 		&:hover
@@ -512,7 +520,7 @@ hr
 	&:before
 		content ''
 		position absolute
-		top 7px
+		top 5px
 		left 7px
 		background-image url(../img/case-arrow.png)
 		width 10px
